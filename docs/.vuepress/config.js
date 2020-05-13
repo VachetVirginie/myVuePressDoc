@@ -5,12 +5,12 @@ module.exports = {
     //     '/': {
     //         lang: 'en-US',
     //         title: 'Waspy \'s brain',
-    //         description: 'How to take care of my pets',
+    //         description: 'doc',
     //     },
     //     '/fr/': {
     //         lang: 'fr-FR',
     //         title: 'Waspy \'s brain',
-    //         description: 'Comment s\'occuper de mes animaux',
+    //         description: 'ma doc',
     //     },
     // },
     themeConfig: {
@@ -23,7 +23,7 @@ module.exports = {
                     '/divers/': [{
                         title: 'Divers',
                         collapsable: false,
-                        children: ['Liens utiles'],
+                        children: ['Liens utiles', 'Emojis in VuePress markdown'],
                     }, ],
                     '/docker/': [{
                         title: 'Docker',
@@ -46,8 +46,8 @@ module.exports = {
                     { text: '', link: '/' },
                     { text: 'Divers', link: '/divers/' },
                     { text: 'Docker', link: '/docker/' },
-                    { text: 'Symfony', link: '/symfony/' },
                     { text: 'Git', link: '/git/' },
+                    { text: 'Symfony', link: '/symfony/' },
                     { text: 'Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
                 ],
             },
