@@ -1,4 +1,4 @@
-# Tutorial VuePress / Netlify
+# Tutorial VuePress 
 
 Serve : ```yarn docs:dev # OR npm run docs:dev```
 
