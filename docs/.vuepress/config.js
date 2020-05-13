@@ -20,25 +20,31 @@ module.exports = {
                 label: 'English',
                 //  selectText: 'Languages',
                 sidebar: {
+                    '/divers/': [{
+                        title: 'Divers',
+                        collapsable: false,
+                        children: ['Liens utiles'],
+                    }, ],
                     '/docker/': [{
                         title: 'Docker',
                         collapsable: false,
                         children: ['Commandes de base'],
-                    }, ],
-                    '/symfony/': [{
-                        title: 'Symfony',
-                        collapsable: false,
-                        children: ['Best Practices SF4'],
                     }, ],
                     '/git/': [{
                         title: 'Git',
                         collapsable: false,
                         children: ['alias', 'Commandes de base'],
                     }, ],
+                    '/symfony/': [{
+                        title: 'Symfony',
+                        collapsable: false,
+                        children: ['Best Practices SF4'],
+                    }, ],
                     '/': [''], // fallback
                 },
                 nav: [
                     { text: '', link: '/' },
+                    { text: 'Divers', link: '/divers/' },
                     { text: 'Docker', link: '/docker/' },
                     { text: 'Symfony', link: '/symfony/' },
                     { text: 'Git', link: '/git/' },
