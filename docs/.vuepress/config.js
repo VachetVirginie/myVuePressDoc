@@ -31,11 +31,21 @@ module.exports = {
                 text: 'Divers',
                 items: [
                     { text: 'Liens Utiles', link: '/divers/liensutiles.md' },
-                    { text: 'Liens Utiles', link: '/divers/EmojisInVuePressMarkdown.md' }
+                    { text: 'Emojis in VuePress', link: '/divers/EmojisInVuePressMarkdown.md' }
                 ]
             },
-            { text: 'Docker', link: '/docker/' },
-            { text: 'Git', link: '/git/' },
+            {
+                text: 'Docker',
+                items: [
+                    { text: 'Commandes de base', link: '/docker/commandesdebases.md' },
+                ]
+            },
+            {
+                text: 'Git',
+                items: [
+                    { text: 'Commandes de base', link: '/docker/commandesdebases.md' },
+                ]
+            },
             { text: 'Symfony', link: '/symfony/' },
             { text: 'Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
         ],

@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# Emojis in VuePress markdown
+# emojisinvuepressmarkdown
 
 
 VuePress includes emojis as part of its Markdown extensions. You include them in your text by surrounding an emoji code with colon characters. For example, you'd use `:smile:` for 😄, or `:thumbsup:` for 👍.
