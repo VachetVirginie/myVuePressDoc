@@ -30,7 +30,7 @@ module.exports = {
             {
                 text: 'Divers',
                 items: [
-                    { text: 'LiensUtiles', link: '/docs/divers/LiensUtiles.md' }
+                    { text: 'LiensUtiles', link: '/divers/LiensUtiles.md' }
                 ]
             },
             { text: 'Docker', link: '/docker/' },
