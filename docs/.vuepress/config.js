@@ -50,7 +50,7 @@ module.exports = {
             {
                 text: 'Symfony',
                 items: [
-                    { text: 'Alias', link: '/symfony/bestpracticessf4.md' },
+                    { text: 'Best Practices SF4', link: '/symfony/bestpracticessf4.md' },
                 ]
             },
             { text: ' Mon Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
