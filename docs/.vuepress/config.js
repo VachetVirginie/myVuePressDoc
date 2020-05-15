@@ -31,7 +31,7 @@ module.exports = {
                 text: 'Divers',
                 items: [
                     { text: 'Liens Utiles', link: '/divers/liensutiles.md' },
-                    { text: 'Emojis in VuePress', link: '/divers/EmojisInVuePressMarkdown.md' }
+                    { text: 'Emojis in VuePress', link: '/divers/emojisinvuepressmarkdown.md' }
                 ]
             },
             {
