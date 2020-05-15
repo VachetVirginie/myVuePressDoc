@@ -18,6 +18,11 @@ module.exports = {
                 collapsable: false,
                 children: ['alias', 'Commandes de base', 'liensutiles'],
             }, ],
+            '/heroku/': [{
+                title: 'Heroku',
+                collapsable: false,
+                children: ['sitestatic'],
+            }, ],
             '/symfony/': [{
                 title: 'Symfony',
                 collapsable: false,
@@ -46,6 +51,12 @@ module.exports = {
                     { text: 'Alias', link: '/git/alias.md' },
                     { text: 'Commandes de base', link: '/git/gitcommandesdebase.md' },
                     { text: 'Liens utiles', link: '/git/liensutiles.md' },
+                ]
+            },
+            {
+                text: 'Heroku',
+                items: [
+                    { text: 'Deployer un site static', link: '/heroku/sitestatic.md' },
                 ]
             },
             {
