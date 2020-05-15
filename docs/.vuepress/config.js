@@ -43,11 +43,17 @@ module.exports = {
             {
                 text: 'Git',
                 items: [
-                    { text: 'Commandes de base', link: '/docker/commandesdebases.md' },
+                    { text: 'Alias', link: '/git/alias.md' },
+                    { text: 'Commandes de base', link: '/git/commandesdebases.md' },
                 ]
             },
-            { text: 'Symfony', link: '/symfony/' },
-            { text: 'Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
+            {
+                text: 'Symfony',
+                items: [
+                    { text: 'Alias', link: '/symfony/bestpracticessf4.md' },
+                ]
+            },
+            { text: ' Mon Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
         ],
     },
     // '/fr/': {
