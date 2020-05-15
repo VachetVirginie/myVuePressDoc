@@ -6,7 +6,7 @@ module.exports = {
             '/divers/': [{
                 title: 'Divers',
                 collapsable: false,
-                children: ['LiensUtiles', 'Emojis in VuePress markdown'],
+                children: ['LiensUtiles.html', 'Emojis in VuePress markdown'],
             }, ],
             '/docker/': [{
                 title: 'Docker',

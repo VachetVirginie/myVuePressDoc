@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 # LiensUtiles
 
 Chuck Norris Ipsum :
