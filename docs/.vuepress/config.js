@@ -16,7 +16,7 @@ module.exports = {
             '/git/': [{
                 title: 'Git',
                 collapsable: false,
-                children: ['alias', 'Commandes de base'],
+                children: ['alias', 'Commandes de base', 'liensutiles'],
             }, ],
             '/symfony/': [{
                 title: 'Symfony',
@@ -45,6 +45,7 @@ module.exports = {
                 items: [
                     { text: 'Alias', link: '/git/alias.md' },
                     { text: 'Commandes de base', link: '/git/gitcommandesdebase.md' },
+                    { text: 'Liens utiles', link: '/git/liensutiles.md' },
                 ]
             },
             {
