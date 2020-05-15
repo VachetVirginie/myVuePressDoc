@@ -20,15 +20,7 @@ module.exports = {
                 label: 'English',
                 //  selectText: 'Languages',
                 sidebar: {
-                    '/docs/divers/': [
-                        'Liens utiles.md',
-                        'Emojis in VuePress markdown.md'
-                    ],
-                    '/docs/Divers': [
-                        'Liens utiles.md',
-                        'Emojis in VuePress markdown.md'
-                    ],
-                    '/divers/': [{
+                    'divers/': [{
                         title: 'Divers',
                         collapsable: false,
                         children: ['Liens utiles', 'Emojis in VuePress markdown'],
