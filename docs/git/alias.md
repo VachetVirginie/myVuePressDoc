@@ -1,4 +1,7 @@
-# Alias
+---
+sidebar: auto
+---
+# alias
 
 color
 
