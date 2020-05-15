@@ -44,7 +44,7 @@ module.exports = {
                 text: 'Git',
                 items: [
                     { text: 'Alias', link: '/git/alias.md' },
-                    { text: 'Commandes de base', link: '/git/commandesdebases.md' },
+                    { text: 'Commandes de base', link: '/git/gitcommandesdebase.md' },
                 ]
             },
             {
