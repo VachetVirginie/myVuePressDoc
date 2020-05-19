@@ -6,7 +6,7 @@ module.exports = {
             '/divers/': [{
                 title: 'Divers',
                 collapsable: false,
-                children: ['LiensUtiles', 'EmojisInVuePressMarkdown'],
+                children: ['LiensUtiles', 'EmojisInVuePressMarkdown', 'VimConfig'],
             }, ],
             '/docker/': [{
                 title: 'Docker',
@@ -36,7 +36,9 @@ module.exports = {
                 text: 'Divers',
                 items: [
                     { text: 'Liens Utiles', link: '/divers/liensutiles.md' },
-                    { text: 'Emojis in VuePress', link: '/divers/emojisinvuepressmarkdown.md' }
+                    { text: 'Emojis in VuePress', link: '/divers/emojisinvuepressmarkdown.md' },
+                    { text: 'Vim Config', link: '/divers/vimconfig.md' }
+
                 ]
             },
             {
