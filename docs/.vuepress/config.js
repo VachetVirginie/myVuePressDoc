@@ -26,7 +26,7 @@ module.exports = {
             '/symfony/': [{
                 title: 'Symfony',
                 collapsable: false,
-                children: ['Best Practices SF4'],
+                children: ['Best Practices SF4', 'symfony5'],
             }, ],
             '/': [''], // fallback
         },
@@ -66,6 +66,7 @@ module.exports = {
                 text: 'Symfony',
                 items: [
                     { text: 'Best Practices SF4', link: '/symfony/bestpracticessf4.md' },
+                    { text: 'Symfony5', link: '/symfony/symfony5.md' }
                 ]
             },
             { text: ' Mon Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
