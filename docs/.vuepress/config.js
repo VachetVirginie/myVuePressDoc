@@ -23,6 +23,11 @@ module.exports = {
                 collapsable: false,
                 children: ['sitestatic'],
             }, ],
+            '/securite/': [{
+                title: 'Securite',
+                collapsable: false,
+                children: ['Canary Tokens'],
+            }, ],
             '/symfony/': [{
                 title: 'Symfony',
                 collapsable: false,
@@ -60,6 +65,12 @@ module.exports = {
                 text: 'Heroku',
                 items: [
                     { text: 'Deployer un site static', link: '/heroku/sitestatic.md' },
+                ]
+            },
+            {
+                text: 'Securite',
+                items: [
+                    { text: 'Canary Tokens', link: '/securite/canarytokens.md' }
                 ]
             },
             {
