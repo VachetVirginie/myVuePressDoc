@@ -6,7 +6,7 @@ sidebar: auto
 Canary Tokens -- Un outil pour savoir si on vous espionne
 ========================================================
 
-[@Korben  ---  11 mai 2016](https://korben.info/author/korben)
+[trouvé sur le site Korben ]
 
 Êtes-vous espionné ? Quelqu'un lit-il vos emails ? Êtes-vous certain que personne d'autre que vous n'accède à votre Dropbox ? Comment être sûr que personne ne consulte les documents que vous stockez sur votre ordinateur ?
 
