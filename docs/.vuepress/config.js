@@ -26,7 +26,7 @@ module.exports = {
             '/securite/': [{
                 title: 'Securite',
                 collapsable: false,
-                children: ['Canary Tokens'],
+                children: ['CIA','Canary Tokens','SIEM'],
             }, ],
             '/symfony/': [{
                 title: 'Symfony',
@@ -70,7 +70,10 @@ module.exports = {
             {
                 text: 'Securite',
                 items: [
-                    { text: 'Canary Tokens', link: '/securite/canarytokens.md' }
+                    { text: 'CIA', link: '/securite/cia.md' },
+                    { text: 'Canary Tokens', link: '/securite/canarytokens.md' },
+                    { text: 'SIEM', link: '/securite/siem.md' }
+
                 ]
             },
             {
