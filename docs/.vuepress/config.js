@@ -5,7 +5,7 @@ module.exports = {
         sidebar: {
             '/divers/': [{
                 title: 'Divers',
-                collapsable: false,
+                collapsable: true,
                 children: ['LiensUtiles', 'EmojisInVuePressMarkdown', 'MesRaccourcis', 'VimConfig'],
             }, ],
             '/docker/': [{
@@ -70,8 +70,8 @@ module.exports = {
             {
                 text: 'Securite',
                 items: [
-                    { text: 'CIA', link: '/securite/cia.md' },
                     { text: 'Canary Tokens', link: '/securite/canarytokens.md' },
+                    { text: 'CIA', link: '/securite/cia.md' },
                     { text: 'SIEM', link: '/securite/siem.md' }
 
                 ]
