@@ -6,7 +6,7 @@ module.exports = {
             '/divers/': [{
                 title: 'Divers',
                 collapsable: true,
-                children: ['LiensUtiles', 'EmojisInVuePressMarkdown', 'MesRaccourcis', 'VimConfig'],
+                children: ['EmojisInVuePressMarkdown', 'LiensUtiles', 'MesRaccourcis', 'Veille', 'VimConfig'],
             }, ],
             '/docker/': [{
                 title: 'Docker',
@@ -26,7 +26,7 @@ module.exports = {
             '/securite/': [{
                 title: 'Securite',
                 collapsable: false,
-                children: ['CIA','Canary Tokens','SIEM'],
+                children: ['CIA', 'Canary Tokens', 'SIEM'],
             }, ],
             '/symfony/': [{
                 title: 'Symfony',
@@ -43,6 +43,7 @@ module.exports = {
                     { text: 'Liens Utiles', link: '/divers/liensutiles.md' },
                     { text: 'Emojis in VuePress', link: '/divers/emojisinvuepressmarkdown.md' },
                     { text: 'Mes raccourcis', link: '/divers/mesraccourcis.md' },
+                    { text: 'Veille', link: '/divers/veille' },
                     { text: 'Vim Config', link: '/divers/vimconfig.md' }
 
                 ]
