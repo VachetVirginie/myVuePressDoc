@@ -7,6 +7,7 @@ sidebar: auto
 La liste des 27 podcasts en français pour les développeurs :
 https://alexsoyes.com/podcasts-developpeurs/
 
+
 ## Blogs
 
 - Putain de code:
@@ -15,17 +16,18 @@ https://alexsoyes.com/podcasts-developpeurs/
 - Ippon:
     https://blog.ippon.fr/
 
--    
-
-- Je suis un dev:
-    https://www.jesuisundev.com
-
 - Alex so yes:
     https://alexsoyes.com/
 
 - Eleven Labs:
-    https://blog.eleven-labs.com/    
+    https://blog.eleven-labs.com/  
+
+- Je suis un dev:
+    https://www.jesuisundev.com
+
+  
 
 
  ## Liste chaînes YouTube
     https://www.ledevweb.fr/   
+
