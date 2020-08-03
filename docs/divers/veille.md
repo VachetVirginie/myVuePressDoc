@@ -3,7 +3,7 @@ sidebar: auto
 ---
 # Veille
 
-## Podcasts:
+## Podcasts
 La liste des 27 podcasts en français pour les développeurs :
 [Podcasts](https://alexsoyes.com/podcasts-developpeurs/) 
 
