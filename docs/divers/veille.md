@@ -11,19 +11,23 @@ https://alexsoyes.com/podcasts-developpeurs/
 ## Blogs
 
 - Putain de code:
-    https://putaindecode.io/
+    Rendez-vous sur le [Putain de code](https://putaindecode.io/) pour tout apprendre à partir de Zéro !
 
 - Ippon:
-    https://blog.ippon.fr/
+    Rendez-vous sur le [Ippon](https://blog.ippon.fr/) pour tout apprendre à partir de Zéro !
 
 - Alex so yes:
-    https://alexsoyes.com/
+    Rendez-vous sur le [Alex so yes](https://alexsoyes.com/) pour tout apprendre à partir de Zéro !
+
 
 - Eleven Labs:
-    https://blog.eleven-labs.com/  
+    Rendez-vous sur le [Eleven Lab]( https://blog.eleven-labs.com/) pour tout apprendre à partir de Zéro !
 
+     
 - Je suis un dev:
-    https://www.jesuisundev.com
+    Rendez-vous sur le [Eleven Lab]( https://www.jesuisundev.com) pour tout apprendre à partir de Zéro !
+
+    
 
   
 
