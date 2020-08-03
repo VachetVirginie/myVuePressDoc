@@ -5,34 +5,28 @@ sidebar: auto
 
 ## Podcasts:
 La liste des 27 podcasts en français pour les développeurs :
-https://alexsoyes.com/podcasts-developpeurs/
+[Podcasts](https://alexsoyes.com/podcasts-developpeurs/) 
 
 
 ## Blogs
 
-- Putain de code:
-    Rendez-vous sur le [Putain de code](https://putaindecode.io/) pour tout apprendre à partir de Zéro !
+- [Putain de code](https://putaindecode.io/) 
 
-- Ippon:
-    Rendez-vous sur le [Ippon](https://blog.ippon.fr/) pour tout apprendre à partir de Zéro !
+- [Ippon](https://blog.ippon.fr/)
 
-- Alex so yes:
-    Rendez-vous sur le [Alex so yes](https://alexsoyes.com/) pour tout apprendre à partir de Zéro !
+- [Alex so yes](https://alexsoyes.com/)
 
+- [Eleven Lab]( https://blog.eleven-labs.com/)
 
-- Eleven Labs:
-    Rendez-vous sur le [Eleven Lab]( https://blog.eleven-labs.com/) pour tout apprendre à partir de Zéro !
-
-     
-- Je suis un dev:
-    Rendez-vous sur le [Eleven Lab]( https://www.jesuisundev.com) pour tout apprendre à partir de Zéro !
-
+- [Je suis un dev]( https://www.jesuisundev.com)
     
 
   
 
  ## Liste chaînes YouTube
   
-   Liste:
-    https://www.ledevweb.fr/   
+   Liste de chaînes:
+
+   [Le dev web]( https://www.ledevweb.fr/ )
+      
 
