@@ -69,6 +69,12 @@ module.exports = {
                 ]
             },
             {
+                text: 'Php',
+                items: [
+                    { text: 'Resume livre php 7', link: '/php/resumelivre.md' },
+                ]
+            },
+            {
                 text: 'Securite',
                 items: [
                     { text: 'Canary Tokens', link: '/securite/canarytokens.md' },
