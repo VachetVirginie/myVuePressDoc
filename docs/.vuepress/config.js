@@ -43,6 +43,7 @@ module.exports = {
                     { text: 'Liens Utiles', link: '/divers/liensutiles.md' },
                     { text: 'Emojis in VuePress', link: '/divers/emojisinvuepressmarkdown.md' },
                     { text: 'Mes raccourcis', link: '/divers/mesraccourcis.md' },
+                    { text: 'PhpStorm cheat sheet', link: '/divers/phpstormcheatsheet.md' },
                     { text: 'Veille', link: '/divers/veille' },
                     { text: 'Vim Config', link: '/divers/vimconfig.md' }
 
