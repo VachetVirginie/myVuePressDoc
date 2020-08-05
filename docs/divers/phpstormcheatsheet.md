@@ -11,7 +11,6 @@ PhpStorm
 General
 -------
 
-|
 
 `CMD+0-9`
 
