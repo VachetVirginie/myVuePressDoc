@@ -3,7 +3,7 @@ sidebar: auto
 ---
 # MesRaccourcis
 
-Run PhpStorm from terminal as normal user or root
+## Run PhpStorm from terminal as normal user or root
 -------------------------------------------------
 
 It's sometimes uneasy to open file explorer and find the PhpStorm executable to run it. For most of the linux system we prefer to run any application directly from terminal as root or as normal user. But unfortunately PhpStorm doesn't provide any installer. So we have to create our own command, create own launcher for our Ubuntu and any other Linux OS.
@@ -22,4 +22,15 @@ OK, now you have the binary located in bin directory. You can now open PhpStorm 
 
 ```
 $ phpstorm
+
+```
+## Creer des aliases Oh My Zsh
+-------------------------------------------------
+
+
+```
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+alias n="nano"
+alias m="mkdir"
 ```
