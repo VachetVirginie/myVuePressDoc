@@ -9,7 +9,7 @@ sidebar: auto
 
 > A container is a runnable instance of an image. You can create, start, stop, move, or delete a container. A container is a process which runs on a host. ...the container process that runs is isolated in that it has its own file system, its own networking, and its own isolated process tree separate from the host.docs.docker.com/engine/docker-overview/#docker-objects, docs.docker.com/engine/reference/run/
 
-### Listing
+## Listing
 
 - List images:\
 `[docker image ls](https://docs.docker.com/engine/reference/commandline/image_ls/)`\
@@ -26,7 +26,7 @@ sidebar: auto
 - List all containers (Compose):\
 `[docker-compose ps](https://www.saltycrane.com/cheat-sheets/docker/)`
 
-### Removing
+## Removing
 
 - Remove a container:\
 `[docker rm my_container](https://docs.docker.com/engine/reference/commandline/rm/)`
@@ -49,12 +49,12 @@ sidebar: auto
 - Remove everything:\
 **Preferences -> Uninstall / Reset -> Reset to factory defaults**
 
-### Pulling images
+## Pulling images
 
 - Pull and image from the Docker registry ([hub.docker.com](https://hub.docker.com/)):\
 `[docker pull my-image](https://docs.docker.com/engine/reference/commandline/pull/)`
 
-### Publishing images
+## Publishing images
 
 See also: [Get started with Docker - Share you image](https://docs.docker.com/get-started/part2/#share-your-image)
 
@@ -65,7 +65,7 @@ See also: [Get started with Docker - Share you image](https://docs.docker.com/ge
 - Push an image to the Docker registry:\
 `[docker push my-username/my-repo:my-tag](https://docs.docker.com/engine/reference/commandline/push/)`
 
-### Building images from Dockerfiles
+## Building images from Dockerfiles
 
 - Build an image from a Dockerfile in the current directory:\
 `[docker build -t my-image .](https://docs.docker.com/engine/reference/commandline/build/)`
@@ -77,13 +77,13 @@ See also: [Get started with Docker - Share you image](https://docs.docker.com/ge
 `[docker-compose build my_service](https://docs.docker.com/compose/reference/build/)`
     - where `my_service` is one of the services listed in the `docker-compose.yml` file
 
-### Creating containers
+## Creating containers
 
 - Create a new container from an image:\
 `[docker create my-image](https://docs.docker.com/engine/reference/commandline/create/)`
 - Build new images and create all containers (Compose). (This will not rebuild images if a Dockerfile changes.) `[docker-compose up --no-start](https://docs.docker.com/compose/reference/up/)`
 
-### Starting / stopping containers
+## Starting / stopping containers
 
 - Start a container:\
 `[docker start my_container](https://docs.docker.com/engine/reference/commandline/start/)`
@@ -94,7 +94,7 @@ See also: [Get started with Docker - Share you image](https://docs.docker.com/ge
 - Stop all containers (Compose):\
 `[docker-compose stop](https://docs.docker.com/compose/reference/stop/)`
 
-### Running containers
+## Running containers
 
 `docker run` is a combination of (optionally) `docker pull`, `docker create`, and `docker start`. See also [Docker run reference](https://docs.docker.com/engine/reference/run/).
 
@@ -119,7 +119,7 @@ See also: [Get started with Docker - Share you image](https://docs.docker.com/ge
 - Create a new container for `my_service` in `docker-compose.yml` and run the `echo` command instead of the specified command:\
 `[docker-compose run my_service echo "hello"](https://docs.docker.com/compose/reference/run/)`
 
-### volumes
+## volumes
 
 - Run a container with a volume named `my_volume` mounted at `/my/path` in the Docker container. (The volume will be created if it doesn't already exist.) See the [Volumes documentation](https://docs.docker.com/storage/volumes/) for more information.\
 `[docker run --mount source=my_volume,target=/my/path my-image](https://docs.docker.com/engine/reference/commandline/run/)`\
@@ -131,7 +131,7 @@ See also: [Get started with Docker - Share you image](https://docs.docker.com/ge
 using `rsync` (after installing it first):\
 `[docker run --rm -it -v my_volume_1:/from -v my_volume_2:/to debian bash -c "apt update && apt install -y rsync && rsync -avz /from/ /to/"](https://docs.docker.com/engine/reference/commandline/run/)`
 
-### ports & networking
+## ports & networking
 
 - Run and bind port 80 inside Docker to port 9090 on the host (outside Docker):\
 `[docker run -p 9090:80 my-image](https://docs.docker.com/engine/reference/commandline/run/)`
@@ -142,7 +142,7 @@ using `rsync` (after installing it first):\
 Run a container using a network:\
 `[docker run --network=my_network my-image](https://docs.docker.com/engine/reference/commandline/run/)`
 
-### Interacting with containers
+## Interacting with containers
 
 - Interact with a running container using bash:\
 `[docker exec -it my_container bash](https://docs.docker.com/engine/reference/commandline/exec/)`
@@ -155,7 +155,7 @@ Run a container using a network:\
 - Show all logs (Compose):\
 `[docker-compose logs -f](https://docs.docker.com/compose/reference/logs/)`
 
-### Getting information
+## Getting information
 
 - Show the Docker version:\
 `[docker version](https://docs.docker.com/engine/reference/commandline/version/)`
