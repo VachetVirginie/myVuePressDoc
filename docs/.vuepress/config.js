@@ -89,6 +89,7 @@ module.exports = {
                 text: 'Symfony',
                 items: [
                     { text: 'Best Practices SF4', link: '/symfony/bestpracticessf4.md' },
+                    { text: 'Cmd', link: '/symfony/cmd.md' },
                     { text: 'Doctrine', link: '/symfony/doctrine.md' },
                     { text: 'Doctrine migration bundle', link: '/symfony/doctrinemigrationbundle.md' },
                     { text: 'Symfony5', link: '/symfony/symfony5.md' }
