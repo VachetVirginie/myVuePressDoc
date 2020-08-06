@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 ---
+
 # commandesdebases
 
 > An image is a read-only template with instructions for creating a Docker container.docs.docker.com/engine/docker-overview/#docker-objects
