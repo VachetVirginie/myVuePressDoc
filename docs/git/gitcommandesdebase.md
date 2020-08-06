@@ -213,3 +213,9 @@ git fsck
 La commande git rebase est utilisée pour la réapplication des commits sur une autre branche. Par exemple:
 
 git rebase master
+
+Aller sur master
+git checkout master 
+git pull origin HEAD
+git checkout -
+git rebase master
