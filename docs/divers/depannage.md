@@ -3,6 +3,8 @@ sidebar: auto
 ---
 # depannage
 
+##  Ubuntu
+
 Que faire lorsque votre Linux démarre en mode BusyBox ?
 ===========================================================================================================================================================
 
@@ -47,3 +49,15 @@ Enter 'help' for a list of built-in commands.
 
 La distribution Linux devrait alors redémarrer correctement.
 
+
+## Pedro
+
+Reinstaller quand ça ne marche plus:
+
+````
+docker-compose stop php
+docker-compose rm php
+rm -rf api/vendor
+docker-compose up -d --build php
+
+````
