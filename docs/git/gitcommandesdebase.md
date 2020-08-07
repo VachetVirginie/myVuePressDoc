@@ -12,6 +12,10 @@ L'une des commandes git les plus utilisées est git config. On l'utilise pour co
 
 git config --global user.email sam@google.com
 
+## Acceder à ma config
+
+git config -l 
+
 ## Git init
 
 Cette commande est utilisée pour créer un nouveau dépôt GIT :
