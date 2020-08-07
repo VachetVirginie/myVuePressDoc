@@ -3,6 +3,8 @@ sidebar: auto
 ---
 # tricks.md
 
+## Typer format string
+
 utiliser: (moins gourmand)
 
 ````
