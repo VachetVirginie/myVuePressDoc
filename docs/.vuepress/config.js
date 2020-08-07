@@ -92,7 +92,8 @@ module.exports = {
                     { text: 'Cmd', link: '/symfony/cmd.md' },
                     { text: 'Doctrine', link: '/symfony/doctrine.md' },
                     { text: 'Doctrine migration bundle', link: '/symfony/doctrinemigrationbundle.md' },
-                    { text: 'Symfony5', link: '/symfony/symfony5.md' }
+                    { text: 'Symfony5', link: '/symfony/symfony5.md' },
+                    { text: 'Tricks', link: '/symfony/tricks.md' }
                 ]
             },
             { text: ' Mon Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
