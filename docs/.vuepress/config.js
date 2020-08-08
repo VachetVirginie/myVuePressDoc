@@ -33,6 +33,11 @@ module.exports = {
                 collapsable: false,
                 children: ['Best Practices SF4', 'symfony5'],
             }, ],
+            '/vue/': [{
+                title: 'Vue',
+                collapsable: false,
+                children: [],
+            }, ],
             '/': [''], // fallback
         },
         nav: [
