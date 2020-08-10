@@ -52,7 +52,7 @@ La distribution Linux devrait alors redémarrer correctement.
 
 ## Pedro
 
-Reinstaller quand ça ne marche plus:
+Reinstaller quand le container php ne marche plus:
 
 ````
 docker-compose stop php
