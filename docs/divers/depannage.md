@@ -52,7 +52,7 @@ La distribution Linux devrait alors redémarrer correctement.
 
 ## Pedro
 
-Reinstaller quand le container php ne marche plus:
+### Reinstaller quand le container php ne marche plus:
 
 ````
 docker-compose stop php
@@ -61,3 +61,7 @@ rm -rf api/vendor
 docker-compose up -d --build php
 
 ````
+
+### Quand on réinstall le projet depuis git
+
+Penser à rajouter les .env d'api et frontend sinon les cmd symfony ne fonctionnent plus.
