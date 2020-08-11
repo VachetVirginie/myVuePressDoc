@@ -65,3 +65,26 @@ docker-compose up -d --build php
 ### Quand on réinstall le projet depuis git
 
 Penser à rajouter les .env d'api et frontend sinon les cmd symfony ne fonctionnent plus.
+
+
+### Docker-compose.override.yaml
+
+Permet de modifier mes ports sans impacter ceux du projet.
+
+.. _docker_compose_override_yml_how_does_it_work:
+
+How does docker-compose.override.yml work?
+==========================================
+
+When you run ``docker-compose up``, it searches for a file named ``docker-compose.yml`` and reads
+all configured services, networks, volumes etc to create your Docker stack. If you also
+additionally have a file named ``docker-compose.override.yml`` this will be read as well and used
+as an override file to complement. It works in the following order:
+
+1. All definitions from ``docker-compose.yml`` will be used
+2. All definitions that are also defined in ``docker-compose.override.yml`` will automatically
+   overwrite the settings from ``docker-compose.yml``
+3. All definitions only available in ``docker-compose.override.yml`` will be added additionally.
+
+For starting up your Docker Compose stack there are no additional steps or command line arguments
+required. If both files exist, they will be read automatically.
