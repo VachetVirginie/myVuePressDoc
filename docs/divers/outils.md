@@ -31,3 +31,21 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 3.Start a new terminal session.
 
+
+### Ne plus avoir à rentrer ses identifiants git : 
+
+1.
+```` 
+ sudo nano ~/.gitconfig  
+```` 
+
+2.
+```` 
+[user]
+        email = mymail@yop.com
+        name = myName
+        password = myPassword
+[credential]
+        helper = cache
+````
+
