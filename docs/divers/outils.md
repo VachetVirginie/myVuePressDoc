@@ -18,3 +18,16 @@ sudo apt install etcher-electron
 
 ````
 
+### How To Install The zsh autosuggestions Plugin in Oh My Zsh In MacOS
+
+zsh-autosuggestions suggests commands as you type based on history and completions.
+
+## To install :
+1.Clone this repository somewhere on your machine. This guide will assume ~/.zsh/zsh-autosuggestions:
+git clone https://github.com/zsh-users/zsh-auto... ~/.zsh/zsh-autosuggestions
+
+2.Add the following to your .zshrc:
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+3.Start a new terminal session.
+
