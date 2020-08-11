@@ -11,7 +11,7 @@ module.exports = {
             '/docker/': [{
                 title: 'Docker',
                 collapsable: false,
-                children: ['Commandes de base'],
+                children: ['Commandes de base', 'Mes commandes utiles'],
             }, ],
             '/git/': [{
                 title: 'Git',
@@ -60,6 +60,7 @@ module.exports = {
                 text: 'Docker',
                 items: [
                     { text: 'Commandes de base', link: '/docker/commandesdebases.md' },
+                    { text: 'Commandes de base', link: '/docker/mescommandesutiles.md' },
                 ]
             },
             {
