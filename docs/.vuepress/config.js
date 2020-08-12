@@ -3,6 +3,11 @@ module.exports = {
     description: 'Waspy \'s brain',
     themeConfig: {
         sidebar: {
+            '/apiPlatform/': [{
+                title: 'ApiPlatform',
+                collapsable: true,
+                children: ['Annotations']
+            }, ],
             '/divers/': [{
                 title: 'Divers',
                 collapsable: true,
@@ -42,6 +47,12 @@ module.exports = {
         },
         nav: [
             { text: '', link: '/' },
+            {
+                text: 'ApiPlatform',
+                items: [
+                    { text: 'ApiPlatform', link: '/apiplatform/annotations.md' },
+                ]
+            },
             {
                 text: 'Divers',
                 items: [
