@@ -88,3 +88,19 @@ as an override file to complement. It works in the following order:
 
 For starting up your Docker Compose stack there are no additional steps or command line arguments
 required. If both files exist, they will be read automatically.
+
+
+### Git
+
+ ## Choisir l'editeur 
+ 
+ #### Vim par default
+ 
+ ````
+git config --global core.editor vim
+````
+ #### Nano par default
+ 
+ ````
+git config --global core.editor nano
+ ````
