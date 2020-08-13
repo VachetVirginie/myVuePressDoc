@@ -50,7 +50,7 @@ module.exports = {
             {
                 text: 'ApiPlatform',
                 items: [
-                    { text: 'Annotations', link: '/apiplatform/annotations.md' },
+                    { text: 'Annotations', link: '/apiPlatform/annotations.md' },
                 ]
             },
             {
