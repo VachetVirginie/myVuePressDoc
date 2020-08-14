@@ -22,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pedro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ApiPlatform" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +45,7 @@
       <workItem from="1597170304909" duration="306000" />
       <workItem from="1597218684686" duration="16000" />
       <workItem from="1597304510108" duration="334000" />
+      <workItem from="1597320611530" duration="256000" />
     </task>
     <servers />
   </component>
@@ -55,10 +56,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="1355" width="430" height="508" key="FileChooserDialogImpl" timestamp="1597218698313">
-      <screen x="0" y="1080" width="1920" height="1080" />
+    <state x="743" y="267" width="430" height="508" key="FileChooserDialogImpl" timestamp="1597320865634">
+      <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state x="743" y="267" width="430" height="508" key="FileChooserDialogImpl/0.0.1920.1047@0.0.1920.1047" timestamp="1597170152469" />
+    <state x="743" y="267" width="430" height="508" key="FileChooserDialogImpl/0.0.1920.1047@0.0.1920.1047" timestamp="1597320865633" />
     <state x="743" y="1355" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1597218698313" />
     <state x="464" y="158" key="SettingsEditor" timestamp="1597170609091">
       <screen x="0" y="0" width="1920" height="1047" />
