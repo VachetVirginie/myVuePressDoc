@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Waspy \'s brain',
-    description: 'Waspy \'s brain',
+    title: 'Vivi \'s brain',
+    description: 'Vivi \'s brain',
     themeConfig: {
         sidebar: {
             '/apiPlatform/': [{
