@@ -25,8 +25,8 @@ npm manifest:
   {
       "name": "tuto-vue-press",
       "version": "1.0.0",
-      "description": "Waspy \'s brain ",
-      "author": "Assitan Koné <assitan.kone@gmail.com>",
+      "description": "Vivi \'s brain ",
+      "author": "Vivi Waspy>",
       "scripts": {
           "docs:dev": "vuepress dev docs",
           "docs:build": "vuepress build docs"

@@ -1,7 +1,7 @@
 {
     "name": "tuto-vue-press",
     "version": "1.0.0",
-    "description": "Waspy's brain ",
+    "description": "Vivi's brain ",
     "author": "Waspy",
     "scripts": {
         "docs:dev": "vuepress dev docs",
