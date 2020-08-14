@@ -104,9 +104,3 @@ git config --global core.editor vim
  ````
 git config --global core.editor nano
  ````
-
-### Symfony/Docker
-
- ## Override docker-compose.yml:
-
-![](https://docs.docker.com/compose/extends/#adding-and-overriding-configuration)
