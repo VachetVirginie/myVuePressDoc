@@ -10,6 +10,8 @@ La liste des 27 podcasts en français pour les développeurs :
 
 ## Blogs
 
+- [Kevin Dunglas](https://dunglas.fr/)
+
 - [Putain de code](https://putaindecode.io/) 
 
 - [Ippon](https://blog.ippon.fr/)
