@@ -12,6 +12,8 @@ La liste des 27 podcasts en français pour les développeurs :
 
 - [Kevin Dunglas](https://dunglas.fr/)
 
+- [Joli Code](https://jolicode.com/blog/archives)
+
 - [Putain de code](https://putaindecode.io/) 
 
 - [Ippon](https://blog.ippon.fr/)
@@ -21,6 +23,8 @@ La liste des 27 podcasts en français pour les développeurs :
 - [Eleven Lab]( https://blog.eleven-labs.com/)
 
 - [Je suis un dev]( https://www.jesuisundev.com)
+
+- [ServerLess Php News](https://serverless-php.news/)
     
 
   
