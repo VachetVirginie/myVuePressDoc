@@ -2,11 +2,16 @@ module.exports = {
     title: 'Vivi \'s brain',
     description: 'Vivi \'s brain',
     themeConfig: {
+        searchPlaceholder: 'Search...',
+        smoothScroll: true,
+        nextLinks: true,
+        prevLinks: true,
         sidebar: {
             '/apiPlatform/': [{
                 title: 'ApiPlatform',
                 collapsable: true,
-                children: ['Annotations']
+                children: ['Annotations'],
+                displayAllHeaders: true
             }, ],
             '/aws/': [{
                 title: 'Aws',
