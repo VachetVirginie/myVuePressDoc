@@ -8,6 +8,11 @@ module.exports = {
                 collapsable: true,
                 children: ['Annotations']
             }, ],
+            '/aws/': [{
+                title: 'Aws',
+                collapsable: true,
+                children: ['Base']
+            }, ],
             '/divers/': [{
                 title: 'Divers',
                 collapsable: true,
@@ -51,6 +56,12 @@ module.exports = {
                 text: 'ApiPlatform',
                 items: [
                     { text: 'Annotations', link: '/apiPlatform/annotations.md' },
+                ]
+            },
+            {
+                text: 'Aws',
+                items: [
+                    { text: 'Base', link: '/aws/lambdaarticle.md' },
                 ]
             },
             {
