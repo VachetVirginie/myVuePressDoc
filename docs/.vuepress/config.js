@@ -96,7 +96,7 @@ module.exports = {
                 text: 'Docker',
                 items: [
                     { text: 'Commandes de base', link: '/docker/commandesdebases.md' },
-                    { text: 'Commandes de base', link: '/docker/mescommandesutiles.md' },
+                    { text: 'Mes commandes utiles', link: '/docker/mescommandesutiles.md' },
                 ]
             },
             {
