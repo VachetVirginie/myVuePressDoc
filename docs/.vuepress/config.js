@@ -7,70 +7,62 @@ module.exports = {
         smoothScroll: true,
         nextLinks: true,
         prevLinks: true,
-        sidebar: [
-            {
+        sidebar: {
+            '/apiPlatform/': [{
                 title: 'ApiPlatform',
                 collapsable: true,
                 children: ['Annotations'],
                 displayAllHeaders: true
-            },             {
-              title: "Misc",
-              children: ["more"]
-            },{
-                title: 'ApiPlatform',
-                collapsable: true,
-                children: ['Annotations'],
-                displayAllHeaders: true
-            }, 
-            {
+            }, ],
+            '/aws/': [{
                 title: 'Aws',
                 collapsable: true,
                 children: ['Base'],
                 displayAllHeaders: true
-            }, 
-            {
+            }, ],
+            '/divers/': [{
                 title: 'Divers',
                 collapsable: true,
                 children: ['EmojisInVuePressMarkdown', 'LiensUtiles', 'MesRaccourcis', 'Outils', 'Veille', 'VimConfig'],
                 displayAllHeaders: true
-            }, 
-            {
+            }, ],
+            '/docker/': [{
                 title: 'Docker',
                 collapsable: false,
                 children: ['Commandes de base', 'Mes commandes utiles'],
                 displayAllHeaders: true
-            },
-            {
+            }, ],
+            '/git/': [{
                 title: 'Git',
                 collapsable: false,
                 children: ['alias', 'Commandes de base', 'liensutiles'],
                 displayAllHeaders: true
-            }, 
-            {
+            }, ],
+            '/heroku/': [{
                 title: 'Heroku',
                 collapsable: false,
                 children: ['sitestatic'],
                 displayAllHeaders: true
-            }, 
-            {
+            }, ],
+            '/securite/': [{
                 title: 'Securite',
                 collapsable: false,
                 children: ['CIA', 'Canary Tokens', 'SIEM'],
                 displayAllHeaders: true
-            },
-            {
+            }, ],
+            '/symfony/': [{
                 title: 'Symfony',
                 collapsable: false,
                 children: ['Best Practices SF4', 'symfony5'],
                 displayAllHeaders: true
-            },
-            {
+            }, ],
+            '/vue/': [{
                 title: 'Vue',
                 collapsable: false,
                 children: [],
                 displayAllHeaders: true
-            }
-          ]
+            }, ],
+            '/': [''], // fallback
         },
         nav: [
             { text: '', link: '/' },
@@ -149,6 +141,7 @@ module.exports = {
             },
             { text: ' Mon Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
         ],
+    },
     // '/fr/': {
     //     label: 'Français',
     //     selectText: 'Langues',
