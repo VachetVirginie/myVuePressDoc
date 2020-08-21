@@ -2,6 +2,7 @@ module.exports = {
     title: 'Vivi \'s brain',
     description: 'Vivi \'s brain',
     themeConfig: {
+        logo: '/assets/img/logo.png',
         searchPlaceholder: 'Search...',
         smoothScroll: true,
         nextLinks: true,
