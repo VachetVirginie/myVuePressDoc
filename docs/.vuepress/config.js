@@ -44,6 +44,12 @@ module.exports = {
                 children: ['sitestatic'],
                 displayAllHeaders: true
             }, ],
+            '/linux/': [{
+                title: 'Linux',
+                collapsable: false,
+                children: ['cmddebase'],
+                displayAllHeaders: true
+            }, ],
             '/securite/': [{
                 title: 'Securite',
                 collapsable: false,
@@ -111,6 +117,12 @@ module.exports = {
                 text: 'Heroku',
                 items: [
                     { text: 'Deployer un site static', link: '/heroku/sitestatic.md' },
+                ]
+            },
+            {
+                text: 'Linux',
+                items: [
+                    { text: 'CMD de base', link: '/linux/cmddebase.md' },
                 ]
             },
             {
