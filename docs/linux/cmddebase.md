@@ -3,7 +3,7 @@ sidebar: auto
 ---
 # CMDdeBase
 
-### Suppression d'un fichier
+## Suppression d'un fichier
 
 Ouvrir un [terminal](https://doc.ubuntu-fr.org/terminal "terminal") puis saisir la [commande](https://doc.ubuntu-fr.org/commande_shell "commande_shell"):
 
@@ -17,7 +17,7 @@ Ouvrir un [terminal](https://doc.ubuntu-fr.org/terminal "terminal") puis saisir 
 
     puis saisissez votre mot de passe.
 
-### Suppression d'un dossier non vide
+## Suppression d'un dossier non vide
 
 -   **Sans** les droits d'administration :
 
@@ -27,7 +27,7 @@ Ouvrir un [terminal](https://doc.ubuntu-fr.org/terminal "terminal") puis saisir 
 
     sudo rm -fr /chemin/repertoire
 
-### Suppression d'un dossier
+## Suppression d'un dossier
 
 La commande **rm** par défaut ne supprime pas de dossier. Pour supprimer un dossier et son contenu, on utilise l'option **-r**
 
