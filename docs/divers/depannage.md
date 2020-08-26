@@ -104,3 +104,11 @@ git config --global core.editor vim
  ````
 git config --global core.editor nano
  ````
+
+## Pedro Five
+
+Pour tests videos:
+
+- verifier les matchs timecode
+- verifier le sport du terrain 
+- le status
