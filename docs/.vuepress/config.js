@@ -20,6 +20,12 @@ module.exports = {
                 children: ['Base'],
                 displayAllHeaders: true
             }, ],
+            '/configs/': [{
+                title: 'Configs',
+                collapsable: true,
+                children: ['Base'],
+                displayAllHeaders: true
+            }, ],
             '/divers/': [{
                 title: 'Divers',
                 collapsable: true,
@@ -82,6 +88,12 @@ module.exports = {
                 text: 'Aws',
                 items: [
                     { text: 'Base', link: '/aws/lambdaarticle.md' },
+                ]
+            },
+            {
+                text: 'Configs',
+                items: [
+                    { text: 'ZSH', link: '/configs/zsh.md' },
                 ]
             },
             {
