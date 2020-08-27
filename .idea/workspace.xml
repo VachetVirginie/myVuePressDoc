@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/divers/depannage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/divers/depannage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/git/mescmdutiles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pedro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,7 +73,8 @@
       <workItem from="1598434120245" duration="8000" />
       <workItem from="1598438126542" duration="1524000" />
       <workItem from="1598452693338" duration="458000" />
-      <workItem from="1598518591783" duration="266000" />
+      <workItem from="1598518591783" duration="340000" />
+      <workItem from="1598523089822" duration="322000" />
     </task>
     <servers />
   </component>
@@ -94,10 +97,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="267" width="430" height="508" key="FileChooserDialogImpl" timestamp="1598453149958">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state x="743" y="275" width="430" height="508" key="FileChooserDialogImpl" timestamp="1598518928471">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="267" width="430" height="508" key="FileChooserDialogImpl/0.0.1920.1047@0.0.1920.1047" timestamp="1598453149958" />
+    <state x="743" y="275" key="FileChooserDialogImpl/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598518928471" />
     <state x="743" y="275" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598434126640" />
     <state x="743" y="1355" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1597218698313" />
     <state x="464" y="158" key="SettingsEditor" timestamp="1598453116393">

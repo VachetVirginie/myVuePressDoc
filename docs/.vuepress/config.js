@@ -123,6 +123,8 @@ module.exports = {
                     { text: 'Alias', link: '/git/alias.md' },
                     { text: 'Commandes de base', link: '/git/gitcommandesdebase.md' },
                     { text: 'Liens utiles', link: '/git/liensutiles.md' },
+                    { text: 'Mes CMD utiles', link: '/git/mescmdutiles.md' },
+
                 ]
             },
             {
