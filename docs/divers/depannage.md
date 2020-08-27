@@ -112,3 +112,15 @@ Pour tests videos:
 - verifier les matchs timecode
 - verifier le sport du terrain 
 - le status
+
+## Docker 
+
+ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+
+If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable.
+make: *** [Makefile:40: start] Error 1
+
+Solution:
+````
+sudo chmod 666 /var/run/docker.sock
+```
