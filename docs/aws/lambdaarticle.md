@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# lambdaarticle
+# lambda article
 
 
 Le cloud computing (ou « système infonuagique » en québécois ✨)

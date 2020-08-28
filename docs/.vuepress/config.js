@@ -88,6 +88,9 @@ module.exports = {
                 text: 'Aws',
                 items: [
                     { text: 'Base', link: '/aws/lambdaarticle.md' },
+                    { text: 'Installe desinstalle cli', link: '/aws/installcli.md' },
+                    { text: 'Resume cours OPC', link: '/aws/resumeopenclassroomcours.md' },
+
                 ]
             },
             {
