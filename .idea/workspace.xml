@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/aws/installcli.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aws/installcli.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/divers/depannage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/divers/depannage.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aws-circleCi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +73,7 @@
       <workItem from="1598452693338" duration="458000" />
       <workItem from="1598518591783" duration="340000" />
       <workItem from="1598523089822" duration="390000" />
-      <workItem from="1598600894875" duration="4198000" />
+      <workItem from="1598600894875" duration="5146000" />
     </task>
     <servers />
   </component>
@@ -98,13 +96,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="275" width="432" height="483" key="FileChooserDialogImpl" timestamp="1598523477547">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="743" y="291" width="432" height="483" key="FileChooserDialogImpl" timestamp="1598627657520">
+      <screen x="0" y="21" width="1920" height="1059" />
     </state>
     <state x="743" y="267" width="430" height="508" key="FileChooserDialogImpl/0.0.1920.1047@0.0.1920.1047" timestamp="1598453149958" />
     <state x="743" y="275" key="FileChooserDialogImpl/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598518928471" />
     <state x="743" y="275" width="432" height="483" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598523477547" />
     <state x="743" y="1355" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1597218698313" />
+    <state x="743" y="291" key="FileChooserDialogImpl/0.21.1920.1059@0.21.1920.1059" timestamp="1598627657520" />
     <state x="464" y="158" key="SettingsEditor" timestamp="1598453116393">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
