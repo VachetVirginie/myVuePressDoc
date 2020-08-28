@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/aws/installcli.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/aws/resumeopenclassroomcours.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/aws/lambdaarticle.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aws/lambdaarticle.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/aws/installcli.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aws/installcli.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/divers/depannage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/divers/depannage.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <workItem from="1598452693338" duration="458000" />
       <workItem from="1598518591783" duration="340000" />
       <workItem from="1598523089822" duration="390000" />
-      <workItem from="1598600894875" duration="2539000" />
+      <workItem from="1598600894875" duration="4198000" />
     </task>
     <servers />
   </component>

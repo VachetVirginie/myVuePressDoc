@@ -123,3 +123,26 @@ make: *** [Makefile:40: start] Error 1
 Solution:
 ````
 sudo chmod 666 /var/run/docker.sock
+````
+## NPM
+
+### Installation
+  Pour installer node et npm, il suffit de taper une des commande suivante.
+    
+  
+   Pour les systèmes Linux Debian et Ubuntu
+     
+    curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+    
+    sudo apt install -y nodejs
+    
+## Yarn
+
+### Installation
+
+To install the Yarn package manager, run:
+
+     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+     echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update && sudo apt-get install yarn
+    
