@@ -9,11 +9,8 @@
     },
     "license": "MIT",
     "devDependencies": {
-<<<<<<< HEAD
         "@vuepress/plugin-back-to-top": "^1.5.4",
-=======
         "@vuepress/plugin-nprogress": "^1.5.4",
->>>>>>> b306496aed7dbcd8cd1f9ec68c4521e2ab03d968
         "vuepress": "^0.10.2"
     },
     "dependencies": {
