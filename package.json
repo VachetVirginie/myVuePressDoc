@@ -10,5 +10,8 @@
     "license": "MIT",
     "devDependencies": {
         "vuepress": "^0.10.2"
+    },
+    "dependencies": {
+        "vuepress-plugin-reading-progress": "^1.0.10"
     }
 }

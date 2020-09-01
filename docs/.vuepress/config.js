@@ -1,6 +1,9 @@
 module.exports = {
     title: 'Vivi \'s brain',
     description: 'Vivi \'s brain',
+    plugins: [
+        'reading-progress'
+    ],
     themeConfig: {
         logo: '/assets/img/logo.png',
         searchPlaceholder: 'Search...',
