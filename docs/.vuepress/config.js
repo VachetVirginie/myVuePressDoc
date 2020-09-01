@@ -1,9 +1,7 @@
 module.exports = {
     title: 'Vivi \'s brain',
     description: 'Vivi \'s brain',
-    plugins: [
-        'reading-progress'
-    ],
+    plugins: ['@vuepress/nprogress'],
     themeConfig: {
         logo: '/assets/img/logo.png',
         searchPlaceholder: 'Search...',
