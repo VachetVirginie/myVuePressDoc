@@ -2,7 +2,10 @@
 sidebar: auto
 ---
 # CMDdeBase
-
+## Connaitre le chemin du fichier dans le dossier où on est:
+```
+readlink -f file.txt
+```
 ## Suppression d'un fichier
 
 Ouvrir un [terminal](https://doc.ubuntu-fr.org/terminal "terminal") puis saisir la [commande](https://doc.ubuntu-fr.org/commande_shell "commande_shell"):
