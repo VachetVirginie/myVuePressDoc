@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+readingShow: true
 ---
 # emojisinvuepressmarkdown
 
