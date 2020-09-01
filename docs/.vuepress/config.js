@@ -34,43 +34,43 @@ module.exports = {
             }, ],
             '/docker/': [{
                 title: 'Docker',
-                collapsable: false,
+                collapsable: true,
                 children: ['Commandes de base', 'Mes commandes utiles'],
                 displayAllHeaders: true
             }, ],
             '/git/': [{
                 title: 'Git',
-                collapsable: false,
+                collapsable: true,
                 children: ['alias', 'Commandes de base', 'liensutiles'],
                 displayAllHeaders: true
             }, ],
             '/heroku/': [{
                 title: 'Heroku',
-                collapsable: false,
+                collapsable: true,
                 children: ['sitestatic'],
                 displayAllHeaders: true
             }, ],
             '/linux/': [{
                 title: 'Linux',
-                collapsable: false,
+                collapsable: true,
                 children: ['cmddebase'],
                 displayAllHeaders: true
             }, ],
             '/securite/': [{
                 title: 'Securite',
-                collapsable: false,
+                collapsable: true,
                 children: ['CIA', 'Canary Tokens', 'SIEM'],
                 displayAllHeaders: true
             }, ],
             '/symfony/': [{
                 title: 'Symfony',
-                collapsable: false,
+                collapsable: true,
                 children: ['Best Practices SF4','CMD','Doctrine','eventlistener', 'simplecache', 'symfony5'],
                 displayAllHeaders: true
             }, ],
             '/vue/': [{
                 title: 'Vue',
-                collapsable: false,
+                collapsable: true,
                 children: [],
                 displayAllHeaders: true
             }, ],
@@ -173,32 +173,4 @@ module.exports = {
             { text: ' Mon Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
         ],
     },
-    // '/fr/': {
-    //     label: 'Français',
-    //     selectText: 'Langues',
-    //     sidebar: {
-    //         '/fr/docker/': [{
-    //             title: 'Mon chien - docker',
-    //             collapsable: false,
-    //             children: ['food', 'hobbies'],
-    //         }, ],
-    //         '/fr/symfony/': [{
-    //             title: 'Mon chat - symfony',
-    //             collapsable: false,
-    //             children: ['food', 'hobbies'],
-    //         }, ],
-    //         '/fr/git/': [{
-    //             title: 'Mon lapin - git',
-    //             collapsable: false,
-    //             children: ['food', 'hobbies'],
-    //         }, ],
-    //         '/': [''], // fallback
-    //     },
-    //     nav: [
-    //         { text: 'docker', link: '/fr/docker/' },
-    //         { text: 'symfony', link: '/fr/symfony/' },
-    //         { text: 'git', link: '/fr/git/' },
-    //         { text: 'Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
-    //     ],
-    // },
 };
