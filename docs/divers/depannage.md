@@ -105,13 +105,25 @@ git config --global core.editor vim
 git config --global core.editor nano
  ````
 
-## Pedro Five
+## Pedro 
+
+### Five
 
 Pour tests videos:
 
 - verifier les matchs timecode
 - verifier le sport du terrain 
 - le status
+
+### Api
+
+En cas d'erreur 500 sur l'api:
+
+- se connecter en ssh au container api
+- aller dans var/log
+- ```` tail -f dev.log ````
+- checker le log pour trouver d'où vient l erreur
+
 
 ## Docker 
 
