@@ -9,6 +9,10 @@
     },
     "license": "MIT",
     "devDependencies": {
+        "@vuepress/plugin-nprogress": "^1.5.4",
         "vuepress": "^0.10.2"
+    },
+    "dependencies": {
+        "vuepress-plugin-reading-progress": "^1.0.10"
     }
 }
