@@ -1,7 +1,8 @@
 module.exports = {
     title: 'Vivi \'s brain',
     description: 'Vivi \'s brain',
-    plugins: ['@vuepress/back-to-top', '@vuepress/nprogress'],
+    plugins: ['@vuepress/nprogress'],
+    plugins: ['@vuepress/back-to-top'],
     themeConfig: {
         lastUpdated: 'Last Updated',
         logo: '/assets/img/logo.png',
