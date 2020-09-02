@@ -4,12 +4,11 @@ module.exports = {
     plugins: ['@vuepress/nprogress'],
     plugins: ['@vuepress/back-to-top'],
     themeConfig: {
+        displayAllHeaders: true, 
         lastUpdated: 'Last Updated',
         logo: '/assets/img/logo.png',
         searchPlaceholder: 'Search...',
         smoothScroll: true,
-        nextLinks: true,
-        prevLinks: true,
         sidebar: {
             '/apiPlatform/': [{
                 title: 'ApiPlatform',
