@@ -3,6 +3,7 @@ module.exports = {
     description: 'Vivi \'s brain',
     plugins: ['@vuepress/back-to-top', '@vuepress/nprogress'],
     themeConfig: {
+        lastUpdated: 'Last Updated',
         logo: '/assets/img/logo.png',
         searchPlaceholder: 'Search...',
         smoothScroll: true,
