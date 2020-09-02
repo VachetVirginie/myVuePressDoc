@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# CMDdeBase
+# CMD de Base
 ## Connaitre le chemin du fichier dans le dossier où on est:
 ```
 readlink -f file.txt
