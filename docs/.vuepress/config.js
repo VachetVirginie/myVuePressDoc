@@ -55,7 +55,7 @@ module.exports = {
             '/linux/': [{
                 title: 'Linux',
                 collapsable: true,
-                children: ['cmddebase'],
+                children: ['cmddebase',"raccourcismint"],
                 displayAllHeaders: true
             }, ],
             '/securite/': [{
