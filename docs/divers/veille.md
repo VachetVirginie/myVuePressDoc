@@ -12,7 +12,7 @@ La liste des 27 podcasts en français pour les développeurs :
 
 - [Kevin Dunglas](https://dunglas.fr/)
 
-- [Rayna stamboliyska] (https://www.zdnet.fr/blogs/50-nuances-d-internet/)
+- [Rayna Stamboliyska](https://www.zdnet.fr/blogs/50-nuances-d-internet/)
 
 - [Joli Code](https://jolicode.com/blog/archives)
 
