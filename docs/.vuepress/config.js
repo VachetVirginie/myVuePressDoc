@@ -1,8 +1,12 @@
 module.exports = {
     title: 'Vivi \'s brain',
     description: 'Vivi \'s brain',
-    plugins: ['@vuepress/nprogress'],
-    plugins: ['@vuepress/back-to-top'],
+    plugins: [
+        '@vuepress/nprogress',
+        '@vuepress/back-to-top',
+        'reading-progress'
+    ],
+    readingDir: 'docs',
     themeConfig: {
         displayAllHeaders: true, 
         lastUpdated: 'Last Updated',
