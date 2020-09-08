@@ -27,6 +27,9 @@ La liste des 27 podcasts en français pour les développeurs :
 - [Je suis un dev]( https://www.jesuisundev.com)
 
 - [ServerLess Php News](https://serverless-php.news/)
+
+- [Zdnet](https://www.zdnet.fr/)
+
     
 
   
