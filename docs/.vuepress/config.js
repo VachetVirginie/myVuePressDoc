@@ -47,7 +47,7 @@ module.exports = {
             '/git/': [{
                 title: 'Git',
                 collapsable: true,
-                children: ['alias', 'Commandes de base', 'liensutiles'],
+                children: ['alias', 'Commandes de base', 'liens utiles', 'Mes commandes utiles'],
                 displayAllHeaders: true
             }, ],
             '/heroku/': [{
