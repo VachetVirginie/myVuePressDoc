@@ -20,3 +20,11 @@ git clean -f
 - Note the case difference on the X for the two latter commands.
 
 If clean.requireForce is set to "true" (the default) in your configuration, one needs to specify -f otherwise nothing will actually happen.
+
+## Desindexer fichiers 
+
+```
+git rm -r --cached .
+git add .
+git commit -m "Untracked files issue resolved to fix .gitignore"
+```
