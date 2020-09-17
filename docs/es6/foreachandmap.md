@@ -62,3 +62,5 @@ Si je résume les différences clées entre les 2 façons de faire :
 -   Vous êtes obligé de gérer avec la déstructuration d'array en ES6 pour gérer l'immutabilité du forEach
 
 Si vous avez le choix, n'hésitez plus et utilisez map pour parcourir vos arrays et les modifier.
+
+From : http://pierreterrat.com/javascript-map-foreach/
