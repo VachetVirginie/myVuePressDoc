@@ -44,6 +44,12 @@ module.exports = {
                 children: ['Commandes de base', 'Mes commandes utiles'],
                 displayAllHeaders: true
             }, ],
+            '/es6/': [{
+                title: 'ES6',
+                collapsable: true,
+                children: ['Javascript forEach vs map'],
+                displayAllHeaders: true
+            }, ],
             '/git/': [{
                 title: 'Git',
                 collapsable: true,
@@ -124,6 +130,12 @@ module.exports = {
                 items: [
                     { text: 'Commandes de base', link: '/docker/commandesdebases.md' },
                     { text: 'Mes commandes utiles', link: '/docker/mescommandesutiles.md' },
+                ]
+            },
+            {
+                text: 'ES6',
+                items: [
+                    { text: 'Javascript forEach vs map', link: '/es6/foreachandmap.md' }
                 ]
             },
             {
