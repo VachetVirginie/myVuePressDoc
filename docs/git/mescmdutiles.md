@@ -28,7 +28,8 @@ git rm -r --cached .
 git add .
 git commit -m "Untracked files issue resolved to fix .gitignore"
 ```
-## Savoir sur quelle branche on se trouve 
+## Savoir sur quelle branche on se trouve
+
 
 ```
 git branch --show-current
