@@ -30,7 +30,14 @@ git commit -m "Untracked files issue resolved to fix .gitignore"
 ```
 ## Savoir sur quelle branche on se trouve
 
-
 ```
 git branch --show-current
+```
+
+## Simple Way to remove untracked files
+
+To remove all untracked files, The simple way is to add all of them first and reset the repo as below
+```
+git add --all
+git reset --hard HEAD
 ```
