@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 ---
-# doctrinemigrationbundle.md
+# doctrine migration bundle
 
 [Lien vers la doc](https://symfony.com/doc/master/bundles/DoctrineMigrationsBundle/index.html) 
 

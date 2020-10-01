@@ -77,7 +77,7 @@ module.exports = {
             '/symfony/': [{
                 title: 'Symfony',
                 collapsable: true,
-                children: ['Best Practices SF4','CMD','Doctrine','eventlistener', 'simplecache', 'symfony5'],
+                children: ['Best Practices SF4','CMD','Doctrine','eventlistener', 'simplecache', 'symfony5', 'Recup entite'],
                 displayAllHeaders: true
             }, ],
             '/vue/': [{
@@ -183,6 +183,7 @@ module.exports = {
                     { text: 'Cmd', link: '/symfony/cmd.md' },
                     { text: 'Doctrine', link: '/symfony/doctrine.md' },
                     { text: 'Doctrine migration bundle', link: '/symfony/doctrinemigrationbundle.md' },
+                    { text: 'Entite recup', link: '/symfony/recuperersesentites.md' },
                     { text: 'Event Listener', link: '/symfony/eventlistener.md'},
                     { text: 'Simple Cache', link: '/symfony/simplecache.md'},
                     { text: 'Symfony5', link: '/symfony/symfony5.md' },
