@@ -114,6 +114,7 @@ module.exports = {
             {
                 text: 'Divers',
                 items: [
+                    { text: 'Convention de nommage', link: '/divers/conventiondenommage.md' },
                     { text: 'Depannage', link: '/divers/depannage.md' },
                     { text: 'Emojis in VuePress', link: '/divers/emojisinvuepressmarkdown.md' },
                     { text: 'Liens Utiles', link: '/divers/liensutiles.md' },
