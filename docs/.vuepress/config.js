@@ -68,6 +68,12 @@ module.exports = {
                 children: ['cmddebase',"raccourcismint"],
                 displayAllHeaders: true
             }, ],
+            '/php/': [{
+                title: 'Php',
+                collapsable: true,
+                children: ['php7'],
+                displayAllHeaders: true
+            }, ],
             '/securite/': [{
                 title: 'Securite',
                 collapsable: true,
