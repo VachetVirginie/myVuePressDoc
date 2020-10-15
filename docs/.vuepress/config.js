@@ -108,6 +108,7 @@ module.exports = {
             {
                 text: 'Configs',
                 items: [
+                    { text: 'Eslintrc', link: '/configs/eslintrc.md' },
                     { text: 'ZSH', link: '/configs/zsh.md' },
                 ]
             },
