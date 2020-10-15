@@ -21,3 +21,21 @@ function sommeTableaux(array ...$tableaux): array\
 }
 
 print_r(sommeTableaux([1,2,3], [4,5,6], [7,8,9]));`
+
+
+## L'opérateur Null coalescent [¶](https://www.php.net/manual/fr/migration70.new-features.php#migration70.new-features.null-coalesce-op)
+
+L'opérateur Null coalescent (`??`) a été ajouté comme un sucre syntaxique pour les cas de besoin le plus commun d'utiliser une troisième conjonction avec la fonction [isset()](https://www.php.net/manual/fr/function.isset.php). Il retourne le premier opérande s'il existe et n'a pas une valeur **`NULL`**; et retourne le second opérande sinon.
+
+`<?php\
+// Récupére la valeur de $_GET['utilisateur'] retourne 'aucun'\
+// s'il n'existe pas.\
+$identifiant = $_GET['utilisateur'] ?? 'aucun';\
+// Ceci est équivalent à :\
+$identifiant = isset($_GET['utilisateur']) ? $_GET['utilisateur'] : 'aucun';
+
+// L'opérateur permet de faire du chaînage : Ceci va retourner la première\
+// valeur définie respectivement dans $_GET['utilisateur'], $_POST['utilisateur']\
+// et 'aucun'.\
+$identifiant = $_GET['utilisateur'] ?? $_POST['utilisateur'] ?? 'aucun';\
+?>`
