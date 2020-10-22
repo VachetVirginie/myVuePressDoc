@@ -150,6 +150,7 @@ module.exports = {
                 text: 'Git',
                 items: [
                     { text: 'Alias', link: '/git/alias.md' },
+                    { text: 'Bonnes Pratiques', link: '/git/bonnespratiques.md' },
                     { text: 'Commandes de base', link: '/git/gitcommandesdebase.md' },
                     { text: 'Liens utiles', link: '/git/liensutiles.md' },
                     { text: 'Mes CMD utiles', link: '/git/mescmdutiles.md' },
