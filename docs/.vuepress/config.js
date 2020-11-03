@@ -195,7 +195,7 @@ module.exports = {
                     { text: 'Doctrine migration bundle', link: '/symfony/doctrinemigrationbundle.md' },
                     { text: 'Entite recup', link: '/symfony/recuperersesentites.md' },
                     { text: 'Event Listener', link: '/symfony/eventlistener.md'},
-                    { text: 'Projet Footix', link: '/symfony/footixProject.md'},
+                    { text: 'Projet Footix', link: '/symfony/footixproject.md'},
                     { text: 'Simple Cache', link: '/symfony/simplecache.md'},
                     { text: 'Symfony5', link: '/symfony/symfony5.md' },
                     { text: 'Tricks', link: '/symfony/tricks.md' }
