@@ -3,6 +3,8 @@ sidebar: auto
 ---
 # Projet Footix
 
+Api pour creer un  site de paris sur des matchs de ligue 1.
+
 1. Generer projet depuis https://github.com/api-platform/api-platform/generate
 2. Modifier docker-compose.yml : changement port apiPlatform: 81 au lieu de 80:
     ports:
