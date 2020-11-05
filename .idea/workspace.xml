@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/mac/ohmyzsh.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mac/ohmyzsh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <workItem from="1598523089822" duration="390000" />
       <workItem from="1598600894875" duration="5304000" />
       <workItem from="1604570980770" duration="1475000" />
-      <workItem from="1604578837146" duration="299000" />
+      <workItem from="1604578837146" duration="516000" />
     </task>
     <servers />
   </component>
