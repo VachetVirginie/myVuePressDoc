@@ -181,6 +181,7 @@ module.exports = {
                 text: 'Mac',
                 items: [
                     { text: 'Raccourcis', link: '/mac/raccourcis.md' },
+                    { text: 'Raccourcis', link: '/mac/ohmyzsh.md.md' },
                 ]
             },
             {
