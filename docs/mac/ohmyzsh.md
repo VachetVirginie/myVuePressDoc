@@ -59,3 +59,50 @@ vscode-zsh-terminal-integration
 Après avoir relancé VS Code on voit bien que le terminal est sur du zsh avec la prise en compte de git sur ce projet.
 vscode-zsh-terminal-integration-1
 
+# Add agnoster theme:
+![Image for post](https://miro.medium.com/max/60/1*a56Zo8tlEaleWieobAtY9g.png?q=20)
+
+![Image for post](https://miro.medium.com/max/1348/1*a56Zo8tlEaleWieobAtY9g.png)
+
+Preview
+
+Prerequisites
+=============
+
+-   **Mac Terminal** (preinstalled)
+-   **ZSH** (preinstalled)
+-   **Oh-My-Zsh\
+    **Refer to the [full installation guide](https://github.com/robbyrussell/oh-my-zsh) for more details.
+
+Install Oh-My-ZSH (cf dessus)
+
+-   **Ubuntu Mono Derivative Powerline Font\
+    **[Download Fonts](https://github.com/powerline/fonts/archive/master.zip)
+
+Installation
+============
+
+Now that we have identified our pre-requisites, let's get started:
+
+1.  Download the font archive, and unzip it. Go to *fonts-master/UbuntuMono/* and install each of the four TTFs: simply double-click and let Font Book install them for you.
+2.  Open Terminal, then navigate to *Terminal Preferences > Profiles > Font* and click the Change button.
+3.  Select *Ubuntu Mono derivative Powerline* and set the font size to your liking.
+4.  Close preferences, and quit Terminal.
+5.  If you haven't already done so, install Oh-My-ZSH.
+6.  Now let's configure your ZSH theme settings:
+
+Edit the ZSH Configuration:
+````
+cd ~
+nano .zshrc
+````
+
+8\. There we will update our theme. You can find "ZSH_THEME=" toward the top of the file:
+
+Set the ZSH Theme
+````
+ZSH_THEME="agnoster"
+````
+9.  Save you changes (CTRL-X if you're using Nano, continue editing forever if you're using Vi or Vim).
+
+10\. Quit and restart Terminal.
