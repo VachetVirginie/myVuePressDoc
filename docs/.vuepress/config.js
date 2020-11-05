@@ -68,6 +68,12 @@ module.exports = {
                 children: ['cmddebase',"raccourcismint"],
                 displayAllHeaders: true
             }, ],
+            '/mac/': [{
+                title: 'Mac',
+                collapsable: true,
+                children: ['raccourcis'],
+                displayAllHeaders: true
+            }, ],
             '/php/': [{
                 title: 'Php',
                 collapsable: true,
@@ -169,6 +175,12 @@ module.exports = {
                 items: [
                     { text: 'CMD de base', link: '/linux/cmddebase.md' },
                     { text: 'CMD de base', link: '/linux/raccourcismint.md' },
+                ]
+            },
+            {
+                text: 'Mac',
+                items: [
+                    { text: 'Raccourcis', link: '/mac/raccourcis.md' },
                 ]
             },
             {

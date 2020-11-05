@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/mac/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/mac/raccourcis.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aws-circleCi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/mac" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +53,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/mac" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,6 +83,7 @@
       <workItem from="1598518591783" duration="340000" />
       <workItem from="1598523089822" duration="390000" />
       <workItem from="1598600894875" duration="5304000" />
+      <workItem from="1604570980770" duration="1365000" />
     </task>
     <servers />
   </component>
@@ -104,9 +114,10 @@
     <state x="743" y="275" width="432" height="483" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598523477547" />
     <state x="743" y="1355" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1597218698313" />
     <state x="743" y="291" key="FileChooserDialogImpl/0.21.1920.1059@0.21.1920.1059" timestamp="1598627657520" />
-    <state x="464" y="158" key="SettingsEditor" timestamp="1598453116393">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state x="348" y="136" key="SettingsEditor" timestamp="1604571475021">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="348" y="136" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604571475021" />
     <state x="464" y="158" key="SettingsEditor/0.0.1920.1047@0.0.1920.1047" timestamp="1598453116393" />
     <state x="464" y="163" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598434109165" />
   </component>
