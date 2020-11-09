@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/css/0.styles.b2c118b4.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/css/0.styles.b2c118b4.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/assets/css/0.styles.b2c118b4.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/assets/css/0.styles.b2c118b4.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +92,7 @@
       <workItem from="1604579816887" duration="166000" />
       <workItem from="1604908409740" duration="1321000" />
       <workItem from="1604923348829" duration="399000" />
-      <workItem from="1604928517497" duration="536000" />
+      <workItem from="1604928517497" duration="698000" />
     </task>
     <servers />
   </component>
