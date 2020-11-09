@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="" />
+    <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +29,12 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="75bdf1c2-d30b-4c6b-bee6-927653ae824e" value="Green" />
+      <entry key="94242d6f-776b-48f1-90ab-574bfbf22070" value="Violet" />
+    </colors>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,9 +46,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/mac" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,7 +57,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -80,6 +89,8 @@
       <workItem from="1598600894875" duration="5304000" />
       <workItem from="1604570980770" duration="1475000" />
       <workItem from="1604578837146" duration="626000" />
+      <workItem from="1604579816887" duration="166000" />
+      <workItem from="1604908409740" duration="1321000" />
     </task>
     <servers />
   </component>
@@ -102,9 +113,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604579523548">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="184" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604909827326">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state x="184" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1604909827326" />
     <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1604579523548" />
     <state x="743" y="291" width="432" height="483" key="FileChooserDialogImpl" timestamp="1598627657520">
       <screen x="0" y="21" width="1920" height="1059" />
@@ -114,11 +126,13 @@
     <state x="743" y="275" width="432" height="483" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598523477547" />
     <state x="743" y="1355" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1597218698313" />
     <state x="743" y="291" key="FileChooserDialogImpl/0.21.1920.1059@0.21.1920.1059" timestamp="1598627657520" />
-    <state x="348" y="136" key="SettingsEditor" timestamp="1604571475021">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="348" y="115" key="SettingsEditor" timestamp="1604909353213">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="348" y="136" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604571475021" />
     <state x="464" y="158" key="SettingsEditor/0.0.1920.1047@0.0.1920.1047" timestamp="1598453116393" />
     <state x="464" y="163" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598434109165" />
+    <state x="348" y="115" key="SettingsEditor/0.23.1440.814@0.23.1440.814" timestamp="1604909353213" />
+    <state x="348" y="123" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1604579977331" />
   </component>
 </project>
