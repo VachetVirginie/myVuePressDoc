@@ -180,8 +180,9 @@ module.exports = {
             {
                 text: 'Mac',
                 items: [
+                    { text: 'Git', link: '/mac/git.md' },
+                    { text: 'Ohmyzsh', link: '/mac/ohmyzsh.md' },
                     { text: 'Raccourcis', link: '/mac/raccourcis.md' },
-                    { text: 'Raccourcis', link: '/mac/ohmyzsh.md.md' },
                 ]
             },
             {
