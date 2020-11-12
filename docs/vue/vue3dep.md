@@ -117,3 +117,6 @@ WTFPL (http://www.wtfpl.net)
 ### Last publish
 5 months ago
 
+# Tailwind
+
+`npm install tailwindcss`
