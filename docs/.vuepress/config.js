@@ -218,10 +218,9 @@ module.exports = {
             {
                 text: 'Vue',
                 items: [
-                    { text: 'Dependances liste', link: '/vue/dep.md' },
+                    { text: 'Dependances liste', link: '/vue/vue3dep.md' },
                 ]
             },
-            { text: ' Mon Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
         ],
     },
 };
