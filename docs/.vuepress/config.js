@@ -215,6 +215,12 @@ module.exports = {
                     { text: 'Tricks', link: '/symfony/tricks.md' }
                 ]
             },
+            {
+                text: 'Vue',
+                items: [
+                    { text: 'Dependances liste', link: '/vue/dep.md' },
+                ]
+            },
             { text: ' Mon Github', link: 'https://github.com/VachetVirginie/vuePressTest' },
         ],
     },
