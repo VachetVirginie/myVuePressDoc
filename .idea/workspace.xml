@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="" />
+    <list default="true" id="e84e8c72-6b5b-4707-8207-730a5e8bc284" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +95,7 @@
       <workItem from="1604928517497" duration="1071000" />
       <workItem from="1605183198618" duration="209000" />
       <workItem from="1605183479273" duration="309000" />
+      <workItem from="1606237431081" duration="457000" />
     </task>
     <servers />
   </component>
@@ -126,7 +129,6 @@
     <state x="743" y="267" width="430" height="508" key="FileChooserDialogImpl/0.0.1920.1047@0.0.1920.1047" timestamp="1598453149958" />
     <state x="743" y="275" key="FileChooserDialogImpl/0.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598518928471" />
     <state x="743" y="275" width="432" height="483" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598523477547" />
-    <state x="743" y="1355" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1597218698313" />
     <state x="743" y="291" key="FileChooserDialogImpl/0.21.1920.1059@0.21.1920.1059" timestamp="1598627657520" />
     <state x="348" y="115" key="SettingsEditor" timestamp="1604909353213">
       <screen x="0" y="23" width="1440" height="814" />
@@ -136,9 +138,10 @@
     <state x="464" y="163" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1598434109165" />
     <state x="348" y="115" key="SettingsEditor/0.23.1440.814@0.23.1440.814" timestamp="1604909353213" />
     <state x="348" y="123" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1604579977331" />
-    <state x="418" y="62" width="604" height="735" key="find.popup" timestamp="1604929488496">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="418" y="64" width="604" height="733" key="find.popup" timestamp="1606237547360">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
     <state x="418" y="62" width="604" height="735" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1604929488496" />
+    <state x="418" y="64" width="604" height="733" key="find.popup/1440.25.1920.1055/0.25.1440.794@0.25.1440.794" timestamp="1606237547360" />
   </component>
 </project>
