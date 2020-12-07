@@ -219,6 +219,7 @@ module.exports = {
                 text: 'Vue',
                 items: [
                     { text: 'Dependances liste', link: '/vue/vue3dep.md' },
+                    { text: 'Upgrade to vue3', link: '/vue/vue3upgrade.md' },
                 ]
             },
         ],

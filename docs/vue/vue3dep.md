@@ -3,6 +3,10 @@ sidebar: auto
 ---
 # Dependencies
 
+# Animations:
+https://github.com/michalsnik/aos http://michalsnik.github.io/aos/
+
+
 # Traduction:
 ## vue-i18n
 https://www.npmjs.com/package/vue-i18n
