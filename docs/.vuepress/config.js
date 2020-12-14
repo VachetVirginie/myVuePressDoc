@@ -218,6 +218,7 @@ module.exports = {
             {
                 text: 'Vue',
                 items: [
+                    { text: 'CMD', link: '/vue/cmd.md' },
                     { text: 'Dependances liste', link: '/vue/vue3dep.md' },
                     { text: 'Config Eslint', link: '/vue/eslintconfig.md' },
                     { text: 'Upgrade to vue3', link: '/vue/vue3upgrade.md' },

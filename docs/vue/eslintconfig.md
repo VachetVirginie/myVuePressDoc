@@ -3,6 +3,11 @@ sidebar: auto
 ---
 # Eslintrc
 
+### Run:
+````
+npm run lint --fix
+````
+
 ````
 {
     "env": {
