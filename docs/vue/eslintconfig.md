@@ -84,7 +84,7 @@ npm run lint --fix
         "vue/attribute-hyphenation": "off",
         "vue/html-indent": [
             "error",
-            4
+            2
         ],
         "vue/html-closing-bracket-newline": [
             "error",
