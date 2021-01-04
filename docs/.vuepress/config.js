@@ -1,7 +1,6 @@
 module.exports = {
     title: 'Vivi \'s brain',
     description: 'Vivi \'s brain',
-    theme: 'thindark',
     plugins: [
         '@vuepress/nprogress',
         '@vuepress/back-to-top',
