@@ -26,4 +26,6 @@ docker-compose rm
 docker-compose pull
 docker-compose up -d --build
 ````
+## Docker-compose up failing because "port is already allocated"
 
+Running ````docker-compose down ```` to clean up containers and networks, then ````docker-compose up```` again and see if that fixes things.
