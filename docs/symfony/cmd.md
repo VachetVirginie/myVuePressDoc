@@ -33,6 +33,15 @@ don't waste your time creating these from scratch. this command is super-easy to
 php bin/console make:entity
 ```
 
+## Migration
+
+```
+dc exec php bin/console doctrine:migration:diff
+```
+```
+dc exec php bin/console doctrine:migration:migrate
+```
+
 ## update database from entity classes
 
 when you're done making changes to entity classes, do this. also: if you just did a `git pull`, and are getting weird DB errors, you probably need to do this:
