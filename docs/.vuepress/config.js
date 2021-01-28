@@ -47,7 +47,7 @@ module.exports = {
             '/es6/': [{
                 title: 'ES6',
                 collapsable: true,
-                children: ['Javascript forEach vs map'],
+                children: ['Javascript forEach vs map','Reduce'],
                 displayAllHeaders: true
             }, ],
             '/git/': [{
@@ -150,7 +150,8 @@ module.exports = {
             {
                 text: 'ES6',
                 items: [
-                    { text: 'Javascript forEach vs map', link: '/es6/foreachandmap.md' }
+                    { text: 'Javascript forEach vs map', link: '/es6/foreachandmap.md' },
+                    { text: 'Javascript Reduce()', link: '/es6/reduce.md' }
                 ]
             },
             {
