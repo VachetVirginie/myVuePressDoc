@@ -55,3 +55,10 @@ history |
  selectionner un des elements
  ctrl + d
  ````
+
+## Commenter un bloc (phpStorm)
+
+````
+commenter le bloc 
+command + /
+````
