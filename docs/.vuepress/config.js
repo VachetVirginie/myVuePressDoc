@@ -135,6 +135,7 @@ module.exports = {
                     { text: 'Mes raccourcis', link: '/divers/mesraccourcis.md' },
                     { text: 'Outils', link: '/divers/outils.md' },
                     { text: 'PhpStorm cheat sheet', link: '/divers/phpstormcheatsheet.md' },
+                    { text: 'Promises', link: '/divers/promises.md' },
                     { text: 'Veille', link: '/divers/veille' },
                     { text: 'Vim Config', link: '/divers/vimconfig.md' }
 
