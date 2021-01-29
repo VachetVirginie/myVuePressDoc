@@ -48,3 +48,10 @@ history |
  nl |
  head -n10
  ```
+
+ ## Selectionner meme elements phpStorm (ctrl + f2 de vscode)
+
+ ````
+ selectionner un des elements
+ ctrl + d
+ ````
