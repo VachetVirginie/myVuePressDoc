@@ -151,7 +151,8 @@ module.exports = {
                 text: 'ES6',
                 items: [
                     { text: 'Javascript forEach vs map', link: '/es6/foreachandmap.md' },
-                    { text: 'Javascript Reduce()', link: '/es6/reduce.md' }
+                    { text: 'Javascript Reduce()', link: '/es6/reduce.md' },
+                    { text: 'Object to array', link: '/es6/objecttoarray.md' }
                 ]
             },
             {
