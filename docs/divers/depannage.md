@@ -9,6 +9,17 @@ sidebar: auto
 xcode-select --install
 ````
 
+## Rtsp
+Afin de pouvoir utiliser la commande make rtsp-start vous devez avoir ffmpeg sur votre machine. Le cas échéant brew install ffmpeg sera votre ami.
+
+## Desactiver l'enregistrement video
+
+Ajouter 
+````
+ENABLE_RECORDING=0
+````
+dans api/.env.local
+
 ##  Ubuntu
 
 Que faire lorsque votre Linux démarre en mode BusyBox ?
