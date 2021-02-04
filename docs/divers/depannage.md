@@ -3,6 +3,12 @@ sidebar: auto
 ---
 # depannage
 
+## Erreur GIT après mise à jour de Mac OS High Sierra (xcrun: error: invalid active developer path)
+
+````
+xcode-select --install
+````
+
 ##  Ubuntu
 
 Que faire lorsque votre Linux démarre en mode BusyBox ?
