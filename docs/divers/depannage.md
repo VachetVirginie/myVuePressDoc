@@ -20,6 +20,11 @@ ENABLE_RECORDING=0
 ````
 dans api/.env.local
 
+## Installer sur le front
+````
+ dc exec frontend yarn add 
+````
+
 ##  Ubuntu
 
 Que faire lorsque votre Linux démarre en mode BusyBox ?
