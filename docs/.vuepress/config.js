@@ -145,6 +145,7 @@ module.exports = {
                 text: 'Docker',
                 items: [
                     { text: 'Commandes de base', link: '/docker/commandesdebases.md' },
+                    { text: 'Logique conditionnelle dans Dockerfile', link: '/docker/conditionsdockerfile.md' },
                     { text: 'Mes commandes utiles', link: '/docker/mescommandesutiles.md' },
                 ]
             },
