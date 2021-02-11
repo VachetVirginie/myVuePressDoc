@@ -25,6 +25,12 @@ dans api/.env.local
  dc exec frontend yarn add 
 ````
 
+## Delete .DS_STORE files in current folder and all subfolders from command line
+
+````
+find . -name ".DS_Store" -print -delete  
+````
+
 ##  Ubuntu
 
 Que faire lorsque votre Linux démarre en mode BusyBox ?
