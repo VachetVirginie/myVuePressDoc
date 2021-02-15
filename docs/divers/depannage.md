@@ -24,14 +24,16 @@ aller dans repertoire où se situe le probleme
 ls
 si pas de rep
 ls -l 
-```
+````
 si vide
+
 ````
 cd ..
 cd log/
 ls
 ````
 Il ne reste plus qu'a checker les logs ;)
+
 ## Desactiver l'enregistrement video
 
 Ajouter 
