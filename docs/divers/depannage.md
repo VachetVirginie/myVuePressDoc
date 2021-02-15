@@ -11,7 +11,27 @@ xcode-select --install
 
 ## Rtsp
 Afin de pouvoir utiliser la commande make rtsp-start vous devez avoir ffmpeg sur votre machine. Le cas échéant brew install ffmpeg sera votre ami.
-
+## Pedro trouver erreur  500
+````
+cd Public
+cd Pedro
+docker exec -it pedro_php_1 sh
+cd var
+ls
+````
+aller dans repertoire où se situe le probleme 
+````
+ls
+si pas de rep
+ls -l 
+```
+si vide
+````
+cd ..
+cd log/
+ls
+````
+Il ne reste plus qu'a checker les logs ;)
 ## Desactiver l'enregistrement video
 
 Ajouter 
