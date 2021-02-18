@@ -192,6 +192,7 @@ module.exports = {
             {
                 text: 'Php',
                 items: [
+                    { text: 'Opérateurs d incrémentation', link: '/php/operateurincrementation.md' },
                     { text: 'Resume livre php 7', link: '/php/resumelivre.md' },
                 ]
             },

@@ -11,6 +11,7 @@ xcode-select --install
 
 ## Rtsp
 Afin de pouvoir utiliser la commande make rtsp-start vous devez avoir ffmpeg sur votre machine. Le cas échéant brew install ffmpeg sera votre ami.
+
 ## Pedro trouver erreur  500 sur maquette
 ````
 cd Public
