@@ -211,6 +211,7 @@ module.exports = {
                     { text: 'Best Practices SF4', link: '/symfony/bestpracticessf4.md' },
                     { text: 'Cmd', link: '/symfony/cmd.md' },
                     { text: 'Doctrine', link: '/symfony/doctrine.md' },
+                    { text: 'DBAL Type Array', link: '/symfony/doctrinetypearray.md' },
                     { text: 'Doctrine migration bundle', link: '/symfony/doctrinemigrationbundle.md' },
                     { text: 'Entite recup', link: '/symfony/recuperersesentites.md' },
                     { text: 'Event Listener', link: '/symfony/eventlistener.md'},
