@@ -175,6 +175,24 @@ En cas d'erreur 500 sur l'api:
 - ```` tail -f dev.log ````
 - checker le log pour trouver d'où vient l erreur
 
+### Relancer crons
+- dans Pedro:
+````
+make back-ssh
+````
+````
+ crond
+```` 
+
+### Relancer export videos
+
+- Ds Pedro:
+````
+make back-ssh
+````
+````
+bin/console ngtv:sessions:export
+````
 
 ## Docker 
 
