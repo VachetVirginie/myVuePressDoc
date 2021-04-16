@@ -162,6 +162,23 @@ rm -rf api/vendor
 docker-compose up -d --build php
 
 ````
+### Si videos en export_deleted mais pas remontees sur site:
+- Dans Pedro
+- 
+````
+make back-ssh
+````
+-
+````
+cd var/postOffice
+````
+
+- ls pour verifier si des fichiers sont presents
+
+- si c'est le cas:
+````
+bin/console ngtv:post-ftp
+````
 
 ### Quand on réinstall le projet depuis git
 
@@ -212,12 +229,16 @@ sudo chmod 666 /var/run/docker.sock
     curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
     
     sudo apt install -y nodejs
+
     ````
+
+
 ## Yarn
 
 ### Installation
 
 To install the Yarn package manager, run:
+
 ````
      curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
      echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
