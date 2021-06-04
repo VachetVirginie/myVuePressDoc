@@ -3,7 +3,16 @@ sidebar: auto
 ---
 # Mes cmd utiles
 
-## git-clean 
+### Fix pb rebase (pr de collegues avec les miennes)
+1. Git pull de master
+1. git reset --soft HEAD~1
+1. git stash
+1. git rebase master
+1. git stash pop
+1. git commit -am "message"
+1. git push origin HEAD --force
+
+### git-clean 
 - Remove untracked files from the working tree
 Step 1 is to show what will be deleted by using the -n option:
 
