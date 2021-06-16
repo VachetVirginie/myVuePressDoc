@@ -116,13 +116,27 @@ git config --global core.editor nano
  ````
 ## Boo
 
-### Mode prod sur boo
+### Mode prod sur Boo
 1. creer un fichier .env.local dans /api
 1. dupliquer le .env
 1. remplacer env par prod
 ⚠️ pas de fixtures possible en prod (normol)
 
 ## Pedro 
+
+### Prod sur Pedro
+```
+dc -f docker-compose.yml up -d --build
+```
+Checker sur quelle version on est:
+```
+make back-ssh
+echo ${APP_ENV}
+```
+Pour revenir en dev:
+```
+dc up -d --build
+```
 
 ### Five
 
