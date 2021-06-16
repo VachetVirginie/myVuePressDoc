@@ -114,6 +114,13 @@ git config --global core.editor vim
  ````
 git config --global core.editor nano
  ````
+## Boo
+
+### Mode prod sur boo
+1. creer un fichier .env.local dans /api
+1. dupliquer le .env
+1. remplacer env par prod
+⚠️ pas de fixtures possible en prod (normol)
 
 ## Pedro 
 
