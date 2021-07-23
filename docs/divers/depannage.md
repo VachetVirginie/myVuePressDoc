@@ -124,6 +124,11 @@ git config --global core.editor nano
 
 ## Pedro 
 
+### Pipotron Five:
+```
+make back-ssh
+bin/console ngtv:five-sessions:pipotron 3117 13 10 0
+```
 ### Prod sur Pedro
 ```
 dc -f docker-compose.yml up -d --build
