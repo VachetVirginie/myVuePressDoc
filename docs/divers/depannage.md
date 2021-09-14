@@ -269,3 +269,11 @@ To install the Yarn package manager, run:
      echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
      sudo apt-get update && sudo apt-get install yarn
 ````    
+
+## Ajouter un package forke
+
+1. Forker le repo
+1. Modifier le nom dans le `composer.json`
+1. Ajouter le lien du repo sur https://packagist.org/packages/submit
+1. Modifier les liens dans le `composer.lock`
+1. Installer via commande donnee sur packagiste
