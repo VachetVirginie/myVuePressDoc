@@ -255,8 +255,7 @@ sudo chmod 666 /var/run/docker.sock
     curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
     
     sudo apt install -y nodejs
-
-    ````
+   ````
 
 
 ## Yarn
