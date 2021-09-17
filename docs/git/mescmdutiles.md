@@ -51,7 +51,7 @@ git add --all
 git reset --hard HEAD
 ```
 
-## Delete all merged local branches:
+## Delete all merged local branches
 
 ````
 git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
