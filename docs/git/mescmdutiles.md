@@ -50,3 +50,9 @@ To remove all untracked files, The simple way is to add all of them first and re
 git add --all
 git reset --hard HEAD
 ```
+
+## Delete all merged local branches:
+
+````
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+````
