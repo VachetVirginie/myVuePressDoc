@@ -1,3 +1,3 @@
 
-![Hello world](https://raw.githubusercontent.com/VachetVirginie/vvachet/main/src/assets/me.jpeg)
+![Hello world](https://raw.githubusercontent.com/VachetVirginie/vvachet/main/src/assets/img.png)
 
