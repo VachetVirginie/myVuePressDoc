@@ -123,7 +123,6 @@ git config --global core.editor nano
 ⚠️ pas de fixtures possible en prod (normol)
 
 ## Pedro 
-
 ### Pipotron Five:
 ```
 make back-ssh
