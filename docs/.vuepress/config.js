@@ -231,6 +231,7 @@ module.exports = {
                     { text: 'Dependances liste', link: '/vue/vue3dep.md' },
                     { text: 'Config Eslint', link: '/vue/eslintconfig.md' },
                     { text: 'Upgrade to vue3', link: '/vue/vue3upgrade.md' },
+                    { text: 'v-if vs v-show', link: '/vue/vifvsvshow.md' }
                 ]
             },
         ],
