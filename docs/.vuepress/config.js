@@ -77,7 +77,7 @@ module.exports = {
             '/php/': [{
                 title: 'Php',
                 collapsable: true,
-                children: ['php7'],
+                children: ['php'],
                 displayAllHeaders: true
             }, ],
             '/securite/': [{
@@ -194,6 +194,7 @@ module.exports = {
                 text: 'Php',
                 items: [
                     { text: 'Opérateurs d incrémentation', link: '/php/operateurincrementation.md' },
+                    { text: 'Nouveautes Php8', link: '/php/php8.md' },
                     { text: 'Resume livre php 7', link: '/php/resumelivre.md' },
                 ]
             },
