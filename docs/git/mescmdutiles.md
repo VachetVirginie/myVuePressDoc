@@ -3,6 +3,12 @@ sidebar: auto
 ---
 # Mes cmd utiles
 
+## Get working directory up to date.
+up = 
+````
+git pull --rebase --prune $@ && git submodule update --init --recursive
+````
+
 ## Fix pb rebase (pr de collegues avec les miennes)
 1. Git pull de master
 1. git reset --soft HEAD~1
