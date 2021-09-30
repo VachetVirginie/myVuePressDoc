@@ -1,4 +1,4 @@
-Array methods:
+![alt text](https://pbs.twimg.com/media/FABiNC7VIAM-ttr?format=png&name=900x900)
 
 Array Methods
 -------------
