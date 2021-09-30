@@ -137,7 +137,7 @@ module.exports = {
                     { text: 'Outils', link: '/divers/outils.md' },
                     { text: 'PhpStorm cheat sheet', link: '/divers/phpstormcheatsheet.md' },
                     { text: 'Promises', link: '/divers/promises.md' },
-                    { text: 'Tailwind Cheat Sheet', link:'?divers/tailwindcheatsheet.md'},
+                    { text: 'Tailwind Cheat Sheet', link:'/divers/tailwindcheatsheet.md'},
                     { text: 'Veille', link: '/divers/veille' },
                     { text: 'Vim Config', link: '/divers/vimconfig.md' }
 
