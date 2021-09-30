@@ -4,31 +4,6 @@ The Tailwind Cheat Sheet
 Reference list of common CSS properties you'll want to use in Tailwind, and their relative classes
 --------------------------------------------------------------------------------------------------
 
--   [Margin and Padding](https://flaviocopes.com/tailwind-cheat-sheet/#margin-and-padding)
-    -   [`margin: 0 auto`](https://flaviocopes.com/tailwind-cheat-sheet/#margin-0-auto)
--   [Width](https://flaviocopes.com/tailwind-cheat-sheet/#width)
--   [Max Width](https://flaviocopes.com/tailwind-cheat-sheet/#max-width)
--   [Min width](https://flaviocopes.com/tailwind-cheat-sheet/#min-width)
--   [Font Family](https://flaviocopes.com/tailwind-cheat-sheet/#font-family)
--   [Font Size](https://flaviocopes.com/tailwind-cheat-sheet/#font-size)
--   [Font weight](https://flaviocopes.com/tailwind-cheat-sheet/#font-weight)
--   [Colors](https://flaviocopes.com/tailwind-cheat-sheet/#colors)
--   [Text color](https://flaviocopes.com/tailwind-cheat-sheet/#text-color)
--   [Background color](https://flaviocopes.com/tailwind-cheat-sheet/#background-color)
--   [Center text](https://flaviocopes.com/tailwind-cheat-sheet/#center-text)
--   [Line Height](https://flaviocopes.com/tailwind-cheat-sheet/#line-height)
--   [Flexbox](https://flaviocopes.com/tailwind-cheat-sheet/#flexbox)
-    -   [Container](https://flaviocopes.com/tailwind-cheat-sheet/#container)
-    -   [Items](https://flaviocopes.com/tailwind-cheat-sheet/#items)
-    -   [Direction](https://flaviocopes.com/tailwind-cheat-sheet/#direction)
-    -   [Wrapping](https://flaviocopes.com/tailwind-cheat-sheet/#wrapping)
-    -   [Align items](https://flaviocopes.com/tailwind-cheat-sheet/#align-items)
-    -   [Align content](https://flaviocopes.com/tailwind-cheat-sheet/#align-content)
-    -   [Align self](https://flaviocopes.com/tailwind-cheat-sheet/#align-self)
-    -   [Justify content](https://flaviocopes.com/tailwind-cheat-sheet/#justify-content)
-    -   [Flex, grow, shrink](https://flaviocopes.com/tailwind-cheat-sheet/#flex-grow-shrink)
--   [Modifiers](https://flaviocopes.com/tailwind-cheat-sheet/#modifiers)
-    -   [Hover](https://flaviocopes.com/tailwind-cheat-sheet/#hover)
 
 Margin and Padding
 ------------------
