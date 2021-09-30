@@ -155,8 +155,8 @@ module.exports = {
                 items: [
                     { text: 'Javascript forEach vs map', link: '/javascript/foreachandmap.md' },
                     { text: 'Javascript Reduce()', link: '/javascript/reduce.md' },
-                    { text: 'Object to array', link: '/javascript/objecttoarray.md' },
-                    { text: 'Numeric Separator', link: '/javascript/numericseparator.md'}
+                    { text: 'Numeric Separator', link: '/javascript/numericseparator.md'},
+                    { text: 'Object to array', link: '/javascript/objecttoarray.md' }
                 ]
             },
             {
