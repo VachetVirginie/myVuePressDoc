@@ -14,7 +14,7 @@ npm run lint --fix
         "node": true,
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "javascript": true
     },
     "extends": [
         "eslint:recommended",

@@ -1,4 +1,4 @@
-# es6
+# javascript
 
-es6 is my poney.
+javascript is my poney.
 

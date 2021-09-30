@@ -44,8 +44,8 @@ module.exports = {
                 children: ['Commandes de base', 'Mes commandes utiles'],
                 displayAllHeaders: true
             }, ],
-            '/es6/': [{
-                title: 'ES6',
+            '/javascript/': [{
+                title: 'Javascript',
                 collapsable: true,
                 children: ['Javascript forEach vs map','Reduce'],
                 displayAllHeaders: true
@@ -151,12 +151,12 @@ module.exports = {
                 ]
             },
             {
-                text: 'ES6',
+                text: 'Javascript',
                 items: [
-                    { text: 'Javascript forEach vs map', link: '/es6/foreachandmap.md' },
-                    { text: 'Javascript Reduce()', link: '/es6/reduce.md' },
-                    { text: 'Object to array', link: '/es6/objecttoarray.md' },
-                    { text: 'Numeric Separator', link: '/es6/numericseparator.md'}
+                    { text: 'Javascript forEach vs map', link: '/javascript/foreachandmap.md' },
+                    { text: 'Javascript Reduce()', link: '/javascript/reduce.md' },
+                    { text: 'Object to array', link: '/javascript/objecttoarray.md' },
+                    { text: 'Numeric Separator', link: '/javascript/numericseparator.md'}
                 ]
             },
             {
