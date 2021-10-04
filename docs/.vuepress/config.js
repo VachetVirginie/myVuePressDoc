@@ -222,7 +222,7 @@ module.exports = {
                     { text: 'Event Listener', link: '/symfony/eventlistener.md'},
                     { text: 'Les attributs PHP 8 dans Symfony' , link: '/symfony/lesattributsphp8danssymfony.md'},
                     { text: 'Panther', link: '/symfony/panther.md'},
-                    { text: 'Prendre INT, UUI ou ULID pour un index de base de Données ?' , link:'/symfony/idbdd.md'}
+                    { text: 'Prendre INT, UUI ou ULID pour un index de base de Données ?' , link:'/symfony/idbdd.md'},
                     { text: 'Projet Footix', link: '/symfony/footixproject.md'},
                     { text: 'Simple Cache', link: '/symfony/simplecache.md'},
                     { text: 'Symfony5', link: '/symfony/symfony5.md' },
