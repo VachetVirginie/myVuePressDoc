@@ -130,6 +130,7 @@ module.exports = {
                 items: [
                     { text: 'Convention de nommage', link: '/divers/conventiondenommage.md' },
                     { text: 'Depannage', link: '/divers/depannage.md' },
+                    { text: 'Design patterns, l’indispensable à savoir', link: '/divers/designpatterns.md' },
                     { text: 'Emojis in VuePress', link: '/divers/emojisinvuepressmarkdown.md' },
                     { text: 'Gifs ffmpeg', link: '/divers/ffmpeggif.md' },
                     { text: 'Liens Utiles', link: '/divers/liensutiles.md' },
