@@ -224,6 +224,7 @@ module.exports = {
                     { text: 'Panther', link: '/symfony/panther.md'},
                     { text: 'Prendre INT, UUI ou ULID pour un index de base de Données ?' , link:'/symfony/idbdd.md'},
                     { text: 'Projet Footix', link: '/symfony/footixproject.md'},
+                    { text: 'Set cache', link: '/symfony/setcache.md'},
                     { text: 'Simple Cache', link: '/symfony/simplecache.md'},
                     { text: 'Symfony5', link: '/symfony/symfony5.md' },
                     { text: 'Tester sur Symfony', link: '/symfony/tester.md' },
