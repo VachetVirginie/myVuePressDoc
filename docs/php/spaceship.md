@@ -25,3 +25,29 @@ The rules used by the combined comparison operator are the same as the currently
     echo "y" <=> "x"; //output  1
 
 ```
+```
+$things = [
+    [
+        'foo' => 5.5,
+        'bar' => 'abc'
+    ],
+    [
+        'foo' => 7.7,
+        'bar' => 'xyz'
+    ],
+    [
+        'foo' => 2.2,
+        'bar' => 'efg'
+    ]
+];
+
+// Sort $things by 'foo' property, ascending
+usort($things, function ($a, $b) {
+    return $a['foo'] <=> $b['foo'];
+});
+
+// Sort $things by 'bar' property, descending
+usort($things, function ($a, $b) {
+    return $b['bar'] <=> $a['bar'];
+});
+```
