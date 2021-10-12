@@ -200,6 +200,7 @@ module.exports = {
                     { text: 'Opérateurs d incrémentation', link: '/php/operateurincrementation.md' },
                     { text: 'Nouveautes Php8', link: '/php/php8.md' },
                     { text: 'Resume livre php 7', link: '/php/resumelivre.md' },
+                    { text: 'Spaceship (<=>)', link: '/php/spaceship.md'}
                 ]
             },
             {
