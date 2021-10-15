@@ -128,6 +128,15 @@ git config --global core.editor nano
 make back-ssh
 bin/console ngtv:five-sessions:pipotron 3117 13 10 0
 ```
+### Restart front in prod
+````
+docker-compose stop frontend 
+
+docker-compose rm frontend
+
+docker-compose -f docker-compose.yml up -d --build frontend
+````
+
 ### Prod sur Pedro
 ```
 dc -f docker-compose.yml up -d --build
