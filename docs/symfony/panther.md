@@ -3,6 +3,13 @@
 1. make sure API_URL is properly defined in your .env, it should be like: 
  `API_URL=http://192.168.x.x:8000`
 2. set PANTHER=1 in .env
+
+3. In services.yaml comment:
+````
+            - '../src/Test/'
+            - '../src/Command/TestsRunCommand.php'
+````
+
 3. Then you need to rebuild the php container:
 ````
 docker-compose up -d --build php frontend
