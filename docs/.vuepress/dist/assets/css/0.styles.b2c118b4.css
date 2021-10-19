@@ -357,7 +357,7 @@ div[class~=language-php]:before {
 }
 
 .custom-block.warning a {
-    color: #2c3e50;
+    color: #4EA7A7;
 }
 
 .custom-block.danger {
@@ -371,7 +371,7 @@ div[class~=language-php]:before {
 }
 
 .custom-block.danger a {
-    color: #2c3e50;
+    color: #4EA7A7;
 }
 
 .custom-block.details {
@@ -460,7 +460,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
-    color: #2c3e50;
+    color: #4EA7A7;
 }
 
 .page {
@@ -1072,7 +1072,7 @@ td, th {
     background: transparent;
     border: none;
     font-weight: 500;
-    color: #2c3e50;
+    color: #4EA7A7;
 }
 
 .dropdown-wrapper .dropdown-title:hover {
@@ -1246,7 +1246,7 @@ td, th {
 }
 @media (min-width: 719px) {
     .nav-links a.router-link-active, .nav-links a:hover {
-        color: #2c3e50;
+        color: #4EA7A7;
     }
 
     .nav-item > a:not(.external).router-link-active, .nav-item > a:not(.external):hover {
@@ -1273,7 +1273,7 @@ td, th {
 .navbar .site-name {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #2c3e50;
+    color: #4EA7A7;
     position: relative;
 }
 
@@ -1447,7 +1447,7 @@ td, th {
 }
 
 .sidebar-heading {
-    color: #2c3e50;
+    color: #4EA7A7;
     transition: color 0.15s ease;
     cursor: pointer;
     font-size: 1.1em;
@@ -1494,7 +1494,7 @@ a.sidebar-link {
     font-size: 1em;
     font-weight: 400;
     display: inline-block;
-    color: #2c3e50;
+    color: #4EA7A7;
     border-left: 0.25rem solid transparent;
     padding: 0.35rem 1rem 0.35rem 1.25rem;
     line-height: 1.4;
