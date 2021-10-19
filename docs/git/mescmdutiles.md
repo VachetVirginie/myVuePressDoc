@@ -62,3 +62,17 @@ git reset --hard HEAD
 ````
 git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 ````
+
+## How to remove local untracked files from the current Git branch
+
+If you want to see which files will be deleted you can use the `-n` option before you run the actual command:
+
+````
+git clean -n
+````
+
+Then when you are comfortable (because it will delete the files for real!) use the **-f** option:
+
+````
+git clean -f
+````
