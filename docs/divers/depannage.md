@@ -285,3 +285,7 @@ To install the Yarn package manager, run:
 1. Ajouter le lien du repo sur https://packagist.org/packages/submit
 1. Modifier les liens dans le `composer.lock`
 1. Installer via commande donnee sur packagiste
+
+## Token Github
+
+just follow the link `https://github.com/settings/tokens/new?scopes=repo&description=Composer+on+PC+2017-03-24+1151` and create a new token and paste it in your terminal when asked.
