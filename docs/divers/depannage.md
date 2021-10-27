@@ -289,3 +289,12 @@ To install the Yarn package manager, run:
 ## Token Github
 
 just follow the link `https://github.com/settings/tokens/new?scopes=repo&description=Composer+on+PC+2017-03-24+1151` and create a new token and paste it in your terminal when asked.
+
+ 
+
+## Connecter deux ordis pour test: 
+Sur web serveur définir dans le .env: API_URL = ‘192.168.x.x’
+
+## Connaitre environnement v16:
+
+Ngtv env php 
