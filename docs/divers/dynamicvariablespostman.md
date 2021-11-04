@@ -5,6 +5,14 @@ You can use these variables like any other variable in Postman. Their values are
 The following is a list of dynamic variables whose values are randomly generated during the request/collection run.
 
 > To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
+### Ex:
+
+```
+{
+    "name": "A great ec1 session with wrong event",
+    "reference": "{{$randomUUID}}"
+}
+```
 
 ### Common
 
