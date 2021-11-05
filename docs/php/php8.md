@@ -130,6 +130,16 @@ $attributes = $reflectionClass->getMethods()[0]->getAttributes(Column::class); /
 
 Note : Les attributs doivent être supportées par votre librairie, PHP ne fera pas la conversion automatiquement entre annotation et attributs.
 
+#### Normes valeurs par defaut:
+
+| Type   |      Default      | 
+|----------|:-------------:|
+| string |  '' | $1600 |
+| dateTimeInterface |    null   |
+| array | [] |
+| int | 0 |
+| bool | false |
+
 ### Nouveautés sur le throw[]
 
 Dans un premier temps, la clause throw est devenue une expression. C'est tout bête, mais ça permet par exemple de rendre le code suivant valide:
