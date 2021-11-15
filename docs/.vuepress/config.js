@@ -159,6 +159,7 @@ module.exports = {
                 items: [
                     { text: 'Array methods', link: '/javascript/arraymethod.md' },
                     { text: 'Javascript forEach vs map', link: '/javascript/foreachandmap.md' },
+                    { text: 'Detect the operating system on the client machine', link: '/javascript/knowos.md' },
                     { text: 'Javascript Reduce()', link: '/javascript/reduce.md' },
                     { text: 'Numeric Separator', link: '/javascript/numericseparator.md'},
                     { text: 'Object to array', link: '/javascript/objecttoarray.md' }
