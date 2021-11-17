@@ -11,6 +11,31 @@
     <link rel="stylesheet" href="/assets/css/0.styles.b2c118b4.css">
   </head>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+<script>
+  const options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // if you want the widget to be on the right then `right: '32px' and left to unset
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.5s' the time to fade in and out 
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // set to true if you want to load the site in the mode the user left it in
+  label: '🌓', // the emoji you want for toggling light and dark mode
+  autoMatchOsTheme: true // if you have enabled dark mode it would open darkmode
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+</script>
     <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-exact-active router-link-active"><!----> 
       <img 
      src="/docs/logo.png"

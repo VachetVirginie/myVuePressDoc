@@ -129,6 +129,7 @@ module.exports = {
                 text: 'Divers',
                 items: [
                     { text: 'Convention de nommage', link: '/divers/conventiondenommage.md' },
+                    { text: 'Add dark mode', link: '/divers/darkmode.md' },
                     { text: 'Depannage', link: '/divers/depannage.md' },
                     { text: 'Design patterns, l’indispensable à savoir', link: '/divers/designpatterns.md' },
                     { text: 'Dynamic variables postman', link: '/divers/dynamicvariablespostman.md' },
@@ -241,9 +242,11 @@ module.exports = {
                 text: 'Vue',
                 items: [
                     { text: 'CMD', link: '/vue/cmd.md' },
+                    { text:'Comment créer un bus d evenement global dans Vue 2', link: '/vue/busevenementglobal.md'},
                     { text:'Computed vs Data', link: '/vue/computedvsdata.md'},
                     { text: 'Dependances liste', link: '/vue/vue3dep.md' },
                     { text: 'Config Eslint', link: '/vue/eslintconfig.md' },
+                    { text: 'Les hooks de cycle de vie Vue.js', link: '/vue/leshooksdecycledevie.md' },
                     { text: 'Upgrade to vue3', link: '/vue/vue3upgrade.md' },
                     { text: 'v-if vs v-show', link: '/vue/vifvsvshow.md' }
                 ]
