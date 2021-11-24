@@ -219,6 +219,7 @@ module.exports = {
             {
                 text: 'Symfony',
                 items: [
+                    { text: 'Alter table', link: '/symfony/altertable.md' },
                     { text: 'Best Practices SF4', link: '/symfony/bestpracticessf4.md' },
                     { text: 'Cmd', link: '/symfony/cmd.md' },
                     { text: 'Doctrine', link: '/symfony/doctrine.md' },
