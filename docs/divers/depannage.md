@@ -20,11 +20,11 @@ docker exec -it pedro_php_1 sh
 cd var
 ls
 ````
-aller dans repertoire où se situe le probleme 
+aller dans repertoire où se situe le probleme
 ````
 ls
 si pas de rep
-ls -l 
+ls -l
 ````
 si vide
 
@@ -37,7 +37,7 @@ Il ne reste plus qu'a checker les logs ;)
 
 ## Desactiver l'enregistrement video
 
-Ajouter 
+Ajouter
 ````
 ENABLE_RECORDING=0
 ````
@@ -45,13 +45,13 @@ dans api/.env.local
 
 ## Installer sur le front
 ````
- dc exec frontend yarn add 
+ dc exec frontend yarn add
 ````
 
 ## Delete .DS_STORE files in current folder and all subfolders from command line
 
 ````
-find . -name ".DS_Store" -print -delete  
+find . -name ".DS_Store" -print -delete
 ````
 
 ##  Ubuntu
@@ -102,15 +102,15 @@ La distribution Linux devrait alors redémarrer correctement.
 
 ## Git
 
- ### Choisir l'editeur 
- 
+ ### Choisir l'editeur
+
  #### Vim par default
- 
+
  ````
 git config --global core.editor vim
 ````
  #### Nano par default
- 
+
  ````
 git config --global core.editor nano
  ````
@@ -122,7 +122,7 @@ git config --global core.editor nano
 1. remplacer env par prod
 ⚠️ pas de fixtures possible en prod (normol)
 
-## Pedro 
+## Pedro
 ### Pipotron Five:
 ```
 make back-ssh
@@ -130,7 +130,7 @@ bin/console ngtv:five-sessions:pipotron 3117 13 10 0
 ```
 ### Restart front in prod
 ````
-docker-compose stop frontend 
+docker-compose stop frontend
 
 docker-compose rm frontend
 
@@ -156,7 +156,7 @@ dc up -d --build
 Pour tests videos:
 
 - verifier les matchs timecode
-- verifier le sport du terrain 
+- verifier le sport du terrain
 - le status
 
 ### Api
@@ -175,7 +175,7 @@ make back-ssh
 ````
 ````
  crond
-```` 
+````
 
 ### Relancer export videos
 
@@ -198,7 +198,7 @@ docker-compose up -d --build php
 ````
 ### Si videos en export_deleted mais pas remontees sur site:
 - Dans Pedro
-- 
+-
 ````
 make back-ssh
 ````
@@ -241,7 +241,7 @@ as an override file to complement. It works in the following order:
 For starting up your Docker Compose stack there are no additional steps or command line arguments
 required. If both files exist, they will be read automatically.
 
-## Docker 
+## Docker
 
 ### ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
 
@@ -256,12 +256,12 @@ sudo chmod 666 /var/run/docker.sock
 
 ### Installation
   Pour installer node et npm, il suffit de taper une des commande suivante.
-    
-  
+
+
    Pour les systèmes Linux Debian et Ubuntu
    ````
     curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-    
+
     sudo apt install -y nodejs
    ````
 
@@ -276,7 +276,7 @@ To install the Yarn package manager, run:
      curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
      echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
      sudo apt-get update && sudo apt-get install yarn
-````    
+````
 
 ## Ajouter un package forke
 
@@ -290,11 +290,19 @@ To install the Yarn package manager, run:
 
 just follow the link `https://github.com/settings/tokens/new?scopes=repo&description=Composer+on+PC+2017-03-24+1151` and create a new token and paste it in your terminal when asked.
 
- 
 
-## Connecter deux ordis pour test: 
+
+## Connecter deux ordis pour test:
 Sur web serveur définir dans le .env: API_URL = ‘192.168.x.x’
 
 ## Connaitre environnement v16:
 
-Ngtv env php 
+Ngtv env php
+
+## Solve yarn install throw error request failed \"404 Not found"
+
+````
+yarn config set registry https://registry.npmjs.org
+rm yarn.lock
+yarn
+````
