@@ -176,6 +176,12 @@ make back-ssh
 ````
  crond
 ````
+### Check si les crons tournent
+
+````
+crontab -l
+ ps
+````
 
 ### Relancer export videos
 
