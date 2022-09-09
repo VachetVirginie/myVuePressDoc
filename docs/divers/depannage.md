@@ -192,16 +192,6 @@ make back-ssh
 ````
 bin/console ngtv:sessions:export
 ````
-
-### Reinstaller quand le container php ne marche plus:
-
-````
-docker-compose stop php
-docker-compose rm php
-rm -rf api/vendor
-docker-compose up -d --build php
-
-````
 ### Si videos en export_deleted mais pas remontees sur site:
 - Dans Pedro
 -
@@ -218,6 +208,16 @@ cd var/postOffice
 - si c'est le cas:
 ````
 bin/console ngtv:post-ftp
+````
+
+### Reinstaller quand le container php ne marche plus:
+
+````
+docker-compose stop php
+docker-compose rm php
+rm -rf api/vendor
+docker-compose up -d --build php
+
 ````
 
 ### Quand on réinstall le projet depuis git
