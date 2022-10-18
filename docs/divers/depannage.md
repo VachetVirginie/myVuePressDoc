@@ -312,3 +312,16 @@ yarn config set registry https://registry.npmjs.org
 rm yarn.lock
 yarn
 ````
+## Solve yarn install throw error request failed \"404 Not found"
+
+````
+yarn config set registry https://registry.npmjs.org
+rm yarn.lock
+yarn
+````  
+
+## Update oh my zsh
+
+````  
+omz update
+````
