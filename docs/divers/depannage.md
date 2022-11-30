@@ -325,3 +325,19 @@ yarn
 ````  
 omz update
 ````
+
+## How to link an old version of node in mac using homebrew
+
+-   `brew install node@16`
+-   `export PATH="/opt/homebrew/opt/node@16/bin:$PATH"` (you need to put into `~/.bash_profile` or `~/.zprofile` to persist the change)
+
+And then I can see the node points to node@@16
+
+```
+$ which node
+/opt/homebrew/opt/node@16/bin/node
+
+$ node --version
+v16.14.2
+
+```
