@@ -341,3 +341,10 @@ $ node --version
 v16.14.2
 
 ```
+## Delete .idea/ folder
+
+```   
+rm -rf .idea
+ou
+rm -R .idea/  
+```
